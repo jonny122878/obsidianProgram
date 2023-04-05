@@ -4,7 +4,7 @@ aliases
 ---
 # Metadata
 Status:發芽
-Source Type:工作
+Source Type:心得
 Source URL:
 Project:
 Author:
@@ -23,6 +23,7 @@ Answer:
   - 名目:
     - [[字串或二進位會被截斷]]
     - [[不允許資料類型varchar隱含轉到varbinary(max),請使用CONVET function]]
+    - [[風管底稿文字欄位產出結果皆為NULL]]
   - 間距
     - [[轉換numeric、int到資料類型numeric時發生算數溢位錯誤]]
     - [[位於資料表 'TableName' 的識別欄位其外顯值只有當使用了資料行清單且 IDENTITY_INSERT 為 ON 時才能指定。]]

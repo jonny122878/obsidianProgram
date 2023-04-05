@@ -28,11 +28,9 @@ Answer:
 - Map:Select對應，Group集合衍性
 - Filter:Where對應，Having集合衍性
 - Where單一元素：名目、順序
-  - LINQ[[DateTime 用WHERE並沒有撈出預期結果]] 
 - Where集合：類別
 
-- ORDER 
-  - [[combobox來源ORDER BY default疑問]]
+
 # Note
 
 

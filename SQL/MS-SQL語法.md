@@ -1,23 +1,18 @@
 ---
-data
-aliases
+data:
+aliases:
 ---
 # Metadata
 Status:發芽
-Source Type:工作
+Source Type:
 Source URL:
-Project:
+Project:總結
 Author:
 Note Type:
 Topics:
 
-# Evergreen Note
-Highlight:
-Question:
-Answer:
-# Summary
 
-## 特性
+## 語言存在環境特性?
 - 位置概念
 ```
 USE[所在資料庫]
@@ -29,28 +24,17 @@ USE[所在資料庫]
 副程式應用選擇[[想要提煉function return一張表]]
 在 SQL Server 中，View 本身是一個虛擬表格，是由一個或多個 SELECT 語句所組成的，而不是一個實際的表格。因此，View 中的資料是根據 SELECT 語句所定義的查詢結果產生的，而不是實際存在的資料。因此，在 View 中使用 ORDER BY 是沒有意義的，因為它不會改變 View 中的資料。
 
-## 衍生原生功能
-- SP_EXECUTESQL 預存程序
-- INFORMATION_SCHEMA.COLUMNS 表格結構
-ps:C:\\Programs_Note\\SQL\\
-
-# Note
-
-
-
-
-## 分隔符
-- ;為結尾
-- With這種暫存變數若有多個，ex:With name1 As(), name 2 As()
-- select、insert 這些都是屬於陳述式
-## 型別
-- 強型別
-- 日期型態欄位用字串條件自動轉型，ex:
+## 語言型別衝突呈現:如何declare?、exception所丟出?
+#### 型態區分
+- With這種**暫存變數**若有多個，ex:With name1 As(), name 2 As()
+- select、insert 這些都是屬於**陳述式**,若要一起整個腳本執行以;為結尾
+- 傳統變數
+#### 日期型別
+- 字串條件自動轉型，ex:
     - 20220415
     - 2022/04/15
     - 2022-04-15
-
-# 結構變數
+#### 結構變數
 - 宣告時類似VB語法，DECLARE name As xxx
 - 要用@來修飾
 - 寫入時前面要加set
@@ -60,25 +44,42 @@ ps:C:\\Programs_Note\\SQL\\
 - With 內部必要命名，前若有更新指令；
 - With 宣告變數若沒有用Declare用完就就釋放
 - ex:[With串接,之後生命週期到陳述式就結束了](######with_ex)
-# 結構集合
-- 資料表來達到結構集合的特性
+#### 結構集合
+- **資料表**來達到結構集合的特性
 - As [特殊欄位名]
 - Constraint default 預設欄位值
 - As別名 不能用在其他主句ex:where order
-# 廻圈
+
+## 變數、條件、迴圈、函式四大基礎所對應語法?
+#### 廻圈
 - 組成要素只有While搭配計數值與中斷值
 - BEGIN END中間內包覆指令
 ex:[SQL_Loop_example](######Loop_SQL_ex)
-# 條件
-- BETWEEN AND是含limit範圍
+#### 條件
+- BETWEEN AND是含**limit**範圍
 - WHERE **column** BETWEEN **最小值含limit(相當於<=)** AND **最大值含limit(相當於>=)**
 - ex:[BETWEEN-AND正負數比較](######BETWEEN_AND_SQL_ex)
-# 函數
+- 傳統AND串接[[SQL條件短路寫法邏輯炸彈]]
+#### 函數
 - 與一般函數基本要件一樣參數、函數名、回傳值
 - 較為不同回傳值類似python可有可無
 - 資料表可掛觸發程序
 - 去更新令張表
 https://dotblogs.com.tw/ricochen/2011/06/23/29628
+
+
+
+## 原生功能體現環境特性?
+- SP_EXECUTESQL 預存程序
+  - 組合字串陷阱[[PROCEDUCE字串組合]]
+  
+- INFORMATION_SCHEMA.COLUMNS 表格結構
+ps:C:\\Programs_Note\\SQL\\
+
+
+
+
+
 
 ###### with_ex
 - 在UPDATE陳述式結束後with變數生命週期就已結束

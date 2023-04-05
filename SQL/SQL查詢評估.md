@@ -1,25 +1,41 @@
-查詢語句底層準則[[SQL抽象查詢]]
-查詢語句操作結構原理[[SQL抽象結構]]
-觀念對照[[Regular概論]]
+---
+data
+aliases
+---
+# Metadata
+Status:發芽
+Source Type:心得
+Source URL:
+Project:
+Author:
+Note Type:
+Topics:
 
-### 了解未知SQL時
-要以INNER為主，其為必要值或是帶有過濾動作
-LEFT則是補足順序，應可之後在了解
-
-- 集合產出整個workflow類似樹狀概念,不斷往下遞迴,每個階層都是做下述4個步驟
+# Evergreen Note
+## Highlight:
+1.撰寫一個全新的SQL
+2.已經有寫好SQL要做擴充或Debug
+## Question:
+是否有一定的評估準則?二者先後步驟是否相同?
+## Answer:
+###### 了解未知SQL時
+- Debug時可先預覽[[SQL抽象結構]]與[[SQL抽象查詢]]快速掌握違反規範limit點
+- Debug順序時INNER為主，其為必要值或是帶有**過濾**動作
+- LEFT則是補足資訊，應可之後在了解
+###### 集合產出整個workflow類似樹狀概念,不斷往下遞迴,每個階層都是做下述4個步驟
   - 是否產生新集合
   - 集合之間結合方式
   - 每個集合單位換算
   - 每個集合整平資訊
+- 最後將整個集合排序
 
-
+# Summary
 ## 是否產生新集合
 - 過濾條件是否需要**Group** 產生新集合 (待整理,排程掛計算)
   - 則先將集合分離成原本資訊集合、過濾條件集合
   - 過濾條件集合再看有幾個Group去巢狀得到結果
 - 若過濾有用到相對形容詞,ex:前幾月,就需透過ROW_NUMBER生成相對應過濾欄位
 [[SQL/查詢語法/Group應用]]
-
 ## 集合之間結合方式
 - 交集之前考慮點
   - 欄:資訊的不足再擴充:要將NULL值給填補利用LEFT JOIN
@@ -40,8 +56,10 @@ LEFT則是補足順序，應可之後在了解
 - ex:主表決定
   - 做交易檔撈取時，觀察損益檔是否帶有庫存
   - 若帶有庫存則應以此為主表，無庫存表示當日無持有部位
+
 ## 每個集合單位換算
 - where時間切片：ex:每日、或是訂單
+  - LINQ[[DateTime 用WHERE並沒有撈出預期結果]]
 - where環境顆粒度：ex:大數據維度部門、交易員
 - sum+group:ex:時間顆粒度提升日到月
 - avg+between
@@ -66,7 +84,15 @@ LEFT則是補足順序，應可之後在了解
 [[函數應用]]
 
 ## 將產出結果給排序
+小心不符合預期值ORDER[[combobox來源ORDER BY default疑問]]
+編碼誤區[[ORDER序號大小理解錯誤]]
+LINQ理解bool誤區[[LINQ檔案散落各處路徑ORDER是否存在]]
+
 若為排序規則為一個以上欄位,可透過如下語法,達到LINQ ThenBy效果
 ```
 ORDER BY [updatedate] DESC ,[updatetime] DESC
 ```
+
+# Note
+
+

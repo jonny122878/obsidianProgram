@@ -4,70 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bd3a8c09a0dbbb66",
+        "id": "f489e08a3ba6b218",
         "type": "tabs",
         "children": [
           {
-            "id": "bea33f78bbf777e6",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "初始化Git.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "13e3474c4276754c",
+            "id": "f89026f90e861fb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Version/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccdf2ca5529de9c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "初始化Git.md",
+                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -118,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初始化Git.md",
+                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初始化Git.md",
+                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Git",
+                "query": "SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -162,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "初始化Git.md"
+                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md"
               }
             }
           },
@@ -203,34 +155,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ccdf2ca5529de9c2",
+  "active": "f89026f90e861fb3",
   "lastOpenFiles": [
-    "Version/Git.md",
+    "ASP.NET/Debug  ASP.NET button.md",
+    "ASP.NET/ASP.NET機制.md",
+    "Test/SQL exception/字串或二進位會被截斷.md",
+    "SQL/SQL抽象結構.md",
+    "SQL/SQL抽象查詢.md",
+    "SQL/MS-SQL語法.md",
+    "SQL條件短路寫法邏輯炸彈.md",
+    "SQL/SQL查詢評估.md",
+    "SQL/PROCEDUCE/風管底稿文字欄位產出結果皆為NULL.md",
+    "SQL/PROCEDUCE/PROCEDUCE字串組合.md",
+    "SQL/PROCEDUCE/暫存表作用域.md",
+    "SQL/PROCEDUCE/想要提煉function return一張表.md",
+    "LINQ檔案散落各處路徑ORDER是否存在.md",
+    "Test/SQL exception/ORDER序號大小理解錯誤.md",
+    "Test/SQL exception/MS-SQL exception.md",
+    "SQL/查詢語法/combobox來源ORDER BY default疑問.md",
+    "SQL/查詢語法/函數應用.md",
+    "SQL/查詢語法/Group應用.md",
+    "Regular/Regular概論.md",
+    "Test/SQL exception/轉換numeric、int到資料類型numeric時發生算數溢位錯誤.md",
+    "Version/版本控管概論.md",
     "初始化Git.md",
+    "Version/Git.md",
     "工具/Fast Key概論.md",
     "Obsidian 的 Metadata，建立一套可持續迭代的筆記系統.md",
-    "Version/版本控管概論.md",
     "工具/Visual Studio.md",
-    "工具/SSMS.md",
-    "工具/NET環境.md",
-    "工具/Excel.md",
-    "工具/Chorme.md",
-    "協作/描述.md",
-    "協作/Gannt.md",
-    "操作語言對應心理表徵.md",
-    "javascript/js語法.md",
-    "javascript/jQuery DOM.md",
-    "javascript/js DOM.md",
-    "javascript/js 指令.md",
-    "SQL/js集合/js array.md",
-    "Test/js exception/js 函數 exception.md",
-    "Template/語言特性.md",
-    "javascript/使用者互動分解需求.md",
-    "javascript/前端語言框架發展史.md",
-    "Template/exception.md",
-    "javascript/在javascript碰到未知語法先朝那個方向找.md",
-    "map_to_DOM_ex.md",
-    "工具/Windows.md",
     "C/Core/Untitled",
     "指令/資料庫",
     "SQL/PROCEDUCE",
