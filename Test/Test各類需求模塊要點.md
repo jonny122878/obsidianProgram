@@ -1,18 +1,35 @@
+---
+data
+aliases
+---
+# Metadata
+Status:發芽
+Source Type:心得
+Source URL:
+Project:
+Author:
+Note Type:
+Topics:
 
-- 基本檔維護
+# Evergreen Note
+Highlight:
+Question:
+Answer:
+# Summary
+#### 基本檔維護[[Test Web Client(資料維護)要點]]
   - View js
   - View
   - Prase to View
   - Prase to Model
   - Model
-- 資料分析
-- 資料移轉
+- [[Web Client模塊之間關係]]
+#### 資料分析
+#### 資料移轉
   - 參數
   - 資料來源
   - 資料轉換
   - 目的
-- 
-- 資料比較
+#### 資料比較
   - 基準來源
   - 基準轉換
   - 比較來源
@@ -20,17 +37,33 @@
   - 基準是否補數量 基本檔
   - 交集
   - 目的
-- 資料運算
+#### 資料運算
   - 基準來源
   - 基準轉換
   - 運算來源**要有key**
   - 運算計算...隨著數量增減
   - 交集合併
   - 結果
-- API串接
+#### API串接
   - server拉出接口樣版
   - client將資料格式整合
   - client串接接口
   - server接收client做相對應對作
   - client接收server回傳結果
   - client接收回傳結果做對應動作 
+
+
+
+
+
+
+
+
+
+
+
+
+# Note
+
+
+

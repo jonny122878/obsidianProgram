@@ -4,22 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "f489e08a3ba6b218",
-        "type": "tabs",
+        "id": "737fd1a8210d2d59",
+        "type": "split",
         "children": [
           {
-            "id": "f89026f90e861fb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
-                "mode": "source",
-                "source": false
+            "id": "55f19cec3c3be86d",
+            "type": "tabs",
+            "dimension": 33.52941176470588,
+            "children": [
+              {
+                "id": "54fca9d2ad3e18e8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Test/C exception/C 元件 exception.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "113d42d250063095",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ASP.NET/ASP.NET機制.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "496a974aa723fe20",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Web Client模塊之間關係.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "14c580da24a5fb28",
+            "type": "tabs",
+            "dimension": 66.47058823529412,
+            "children": [
+              {
+                "id": "174bcce172f7cac7",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "ASP.NET/ASP.NET機制.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -54,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 205.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -70,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
+                "file": "ASP.NET/ASP.NET機制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
+                "file": "ASP.NET/ASP.NET機制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQL",
+                "query": "ASP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -114,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md"
+                "file": "ASP.NET/ASP.NET機制.md"
               }
             }
           },
@@ -142,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,34 +230,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f89026f90e861fb3",
+  "active": "113d42d250063095",
   "lastOpenFiles": [
-    "ASP.NET/Debug  ASP.NET button.md",
+    "Test/C exception/名稱XXX元件,不存在目前的內容之中.md",
+    "Test/C exception/C 元件 exception.md",
+    "Test/C exception/500 外部組件異常 二者都有類型.md",
+    "Test/情境Test/Test Web Client(資料維護)要點.md",
+    "Web Client模塊之間關係.md",
+    "Template/exception.md",
+    "Test/Test各類需求模塊要點.md",
+    "Test/Test workflow本質.md",
+    "Test/Test Tools/Unit Test.md",
+    "Test/Test概論.md",
+    "Test/Test容易遺漏問題.md",
+    "Test/exception 規範.md",
+    "Test/環境exception.md",
     "ASP.NET/ASP.NET機制.md",
-    "Test/SQL exception/字串或二進位會被截斷.md",
+    "Test/C exception/設計ddl onchange關聯到textbox visible盲點.md",
+    "Test/SQL exception/MS-SQL exception.md",
+    "Test/SQL exception/Regular exception.md",
+    "ASP.NET/RadioButton設定只能單選與AutoPostBack機制.md",
+    "ASP.NET/修改CSS Style導致PostBack紀錄值失效.md",
+    "ASP.NET/ASP用jQuery修改Eanbled false後台無值.md",
+    "ASP.NET/Debug  ASP.NET button.md",
+    "SQL/PROCEDUCE/想要提煉function return一張表.md",
+    "SQL/SQL查詢評估.md",
     "SQL/SQL抽象結構.md",
     "SQL/SQL抽象查詢.md",
-    "SQL/MS-SQL語法.md",
-    "SQL條件短路寫法邏輯炸彈.md",
-    "SQL/SQL查詢評估.md",
-    "SQL/PROCEDUCE/風管底稿文字欄位產出結果皆為NULL.md",
-    "SQL/PROCEDUCE/PROCEDUCE字串組合.md",
-    "SQL/PROCEDUCE/暫存表作用域.md",
-    "SQL/PROCEDUCE/想要提煉function return一張表.md",
-    "LINQ檔案散落各處路徑ORDER是否存在.md",
-    "Test/SQL exception/ORDER序號大小理解錯誤.md",
-    "Test/SQL exception/MS-SQL exception.md",
-    "SQL/查詢語法/combobox來源ORDER BY default疑問.md",
-    "SQL/查詢語法/函數應用.md",
-    "SQL/查詢語法/Group應用.md",
-    "Regular/Regular概論.md",
-    "Test/SQL exception/轉換numeric、int到資料類型numeric時發生算數溢位錯誤.md",
-    "Version/版本控管概論.md",
-    "初始化Git.md",
-    "Version/Git.md",
-    "工具/Fast Key概論.md",
-    "Obsidian 的 Metadata，建立一套可持續迭代的筆記系統.md",
-    "工具/Visual Studio.md",
+    "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
     "C/Core/Untitled",
     "指令/資料庫",
     "SQL/PROCEDUCE",

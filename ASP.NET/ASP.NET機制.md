@@ -21,6 +21,9 @@ Answer:
 - ViewState特性
   - Dictionary,類MVC架構ViewBag
   - public atttribute
+#### complier因原理不熟所產生訊息
+- [[名稱XXX元件,不存在目前的內容之中]]
+- [[500 外部組件異常 二者都有類型]]
 # Note
 - [ViewState](https://www.cnblogs.com/wphl-27/p/5666547.html)
 

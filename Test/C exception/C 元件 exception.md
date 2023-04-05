@@ -1,7 +1,4 @@
 
-[[exception 規範]]
-
-
 - 疑惑點:將A元件event內寫ddl.DataSource=null並無將畫面來源給清空
 - 情境:下拉選單來源為一層一層式選取,ex:選A => B => C(下拉選單),選B時會計算出C來源，當在重新選A時C(下拉選單)需要清空
 - 判別:指令理解含意問題，應是ddl.Item.Clear()
@@ -13,9 +10,6 @@
   - ddl.DataSource=null; //清來源
 
 
-- 錯誤訊息:名稱XXX元件,不存在目前的內容之中
-- 情境:aspx原本是CodeFile轉換成CodeBehind
-- 判別:確認檔案是否沒有轉成Web應用程式
 
 
 
