@@ -4,97 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "737fd1a8210d2d59",
-        "type": "split",
+        "id": "441ac1e5a11de8a3",
+        "type": "tabs",
         "children": [
           {
-            "id": "55f19cec3c3be86d",
-            "type": "tabs",
-            "dimension": 33.52941176470588,
-            "children": [
-              {
-                "id": "54fca9d2ad3e18e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Test/C exception/C 元件 exception.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "113d42d250063095",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "ASP.NET/ASP.NET機制.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "496a974aa723fe20",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Web Client模塊之間關係.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "7db4d944dd7bd68a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Client模塊之間關係.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "14c580da24a5fb28",
-            "type": "tabs",
-            "dimension": 66.47058823529412,
-            "children": [
-              {
-                "id": "174bcce172f7cac7",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "ASP.NET/ASP.NET機制.md",
-                    "options": {
-                      "collapse-filter": false,
-                      "search": "",
-                      "localJumps": 2,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  }
-                }
+            "id": "17fb8bd1de5f990d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exception設計準則.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/ASP.NET機制.md",
+                "file": "exception設計準則.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/ASP.NET機制.md",
+                "file": "exception設計準則.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ASP",
+                "query": "Test",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -189,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/ASP.NET機制.md"
+                "file": "exception設計準則.md"
               }
             }
           },
@@ -230,22 +168,25 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "113d42d250063095",
+  "active": "17fb8bd1de5f990d",
   "lastOpenFiles": [
+    "Web Client模塊之間關係.md",
+    "exception設計準則.md",
+    "Test/Test各類需求模塊要點.md",
+    "Test/情境Test/Test Web Client(資料維護)要點.md",
+    "cookie與session相關理論應用.md",
+    "工具/POSTMAN.md",
+    "ASP.NET/ASP.NET機制.md",
     "Test/C exception/名稱XXX元件,不存在目前的內容之中.md",
     "Test/C exception/C 元件 exception.md",
     "Test/C exception/500 外部組件異常 二者都有類型.md",
-    "Test/情境Test/Test Web Client(資料維護)要點.md",
-    "Web Client模塊之間關係.md",
     "Template/exception.md",
-    "Test/Test各類需求模塊要點.md",
     "Test/Test workflow本質.md",
     "Test/Test Tools/Unit Test.md",
     "Test/Test概論.md",
     "Test/Test容易遺漏問題.md",
     "Test/exception 規範.md",
     "Test/環境exception.md",
-    "ASP.NET/ASP.NET機制.md",
     "Test/C exception/設計ddl onchange關聯到textbox visible盲點.md",
     "Test/SQL exception/MS-SQL exception.md",
     "Test/SQL exception/Regular exception.md",
@@ -255,9 +196,6 @@
     "ASP.NET/Debug  ASP.NET button.md",
     "SQL/PROCEDUCE/想要提煉function return一張表.md",
     "SQL/SQL查詢評估.md",
-    "SQL/SQL抽象結構.md",
-    "SQL/SQL抽象查詢.md",
-    "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
     "C/Core/Untitled",
     "指令/資料庫",
     "SQL/PROCEDUCE",

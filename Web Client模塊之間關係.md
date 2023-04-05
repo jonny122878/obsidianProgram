@@ -35,5 +35,5 @@ Answer:
   - commit
   - rollback
   - log
-- 將所有模塊都用try-catch給包覆
+- 將所有模塊都用try-catch給包覆，參考[[exception設計準則]]
 # Note
