@@ -1,11 +1,47 @@
-# 引入副程式
+---
+data
+aliases
+---
+# Metadata
+Status:發芽
+Source Type:工作
+Source URL:
+Project:
+Author:
+Note Type:
+Topics:
+
+# Evergreen Note
+Highlight:
+Question:
+Answer:
+# Summary
+#### TempData與ViewData差別?
+  - 生命週期可以跨Action，ex:Delete Action沒有畫面成功之後在跳轉回Index 
+#### Controller內若不存在ViewData是否可調用?
+  - 可以，預設null 
+#### 套用ApiController差異再於?
+  - 模型驗證失敗Controller內不會再寫Model.IsValid 
+  - 取代會輸出JSON並且內部含status code 400
+  - 必須搭配[RoutePrefix("Member")]、[Route("Get")] 
+#### Controller參數預設為?
+  - 簡單型別[FormQuery]
+  - 參考型別[FormBody]
+  - IFormFile[FormForm] 
+#### API vs Web Controller?
+  - inherit基底不同controller and controllerbase
+  - controller除了原本Web API功能之外，還多了View相關
+  - return abstract class也不同，API只回傳http code
+  - [API解說](https://blog.miniasp.com/post/2019/09/16/ASPNET-Core-22-Web-API-Tips-and-Tricks)
+  - [return code解析](https://www.cnblogs.com/landeanfen/p/5501487.html)
+
+# Note
+#### 引入副程式
 ex:NuGet、using.....
 - using System.Web.Mvc; (ASP MVC FormCollection)
 - using System.Web.Mvc; (SelectList支援集合元件用)
-# 解決問題情境步驟
-## Api
 
-
+#### 參數種類
 |標籤|取值|
 |:--|:--|
 |FormQuery|網址後面字串|
@@ -21,35 +57,15 @@ ex:NuGet、using.....
 ## 其他
 ### [檔案下載函式宣告](######file_download_ex)
 
-# 指令樣式
-ex:function、object....
 
-# limit
-ex:臨界值
-- TempData與ViewData差別?
-  - 生命週期可以跨Action，ex:Delete Action沒有畫面成功之後在跳轉回Index 
-- Controller內若不存在ViewData是否可調用?
-  - 可以，預設null 
-- API vs Web Controller?
-  - inherit基底不同controller and controllerbase
-  - controller除了原本Web API功能之外，還多了View相關
-  - return abstract class也不同，API只回傳http code
-  - [API解說](https://blog.miniasp.com/post/2019/09/16/ASPNET-Core-22-Web-API-Tips-and-Tricks)
-  - [return code解析](https://www.cnblogs.com/landeanfen/p/5501487.html)
+
 - 串接API return "ExceptionMessage": "找到多個符合下列要求的動作?
   - Controller參數預設型態宣告不能再宣告同樣，ex:[FormBody] class
 - 串接API return "Message": "此資源不支援要求實體的媒體類型 'application/javascript'。"?
   - Controller參數預設型態串接不符，class = json
 - POSTMAN串接API用js內語法不符?
   - POSTMAN都要雙引號 "Name":"add", 
-- 套用ApiController差異再於?
-  - 模型驗證失敗Controller內不會再寫Model.IsValid 
-  - 取代會輸出JSON並且內部含status code 400
-  - 必須搭配[RoutePrefix("Member")]、[Route("Get")] 
-- Controller參數預設為?
-  - 簡單型別[FormQuery]
-  - 參考型別[FormBody]
-  - IFormFile[FormForm] 
+
 - Api優勢再於?
   - 當此服務需在多個平台上運行，ex:web、Android、IOS就可帶有類似提煉副程式功能 
 - RESTful API不能帶有狀態性?
