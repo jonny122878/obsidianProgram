@@ -1,3 +1,25 @@
+---
+data
+aliases
+---
+# Metadata
+Status:發芽
+Source Type:工作
+Source URL:
+Project:
+Author:
+Note Type:
+Topics:
+
+# Evergreen Note
+Highlight:
+Question:
+Answer:
+# Summary
+[[excel匯入失敗，出現insert很多欄位空白訊息]]
+# Note
+
+
 - except
 - 是否資料正確移轉
 - 確實發信
