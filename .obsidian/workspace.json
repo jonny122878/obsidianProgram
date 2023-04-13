@@ -4,67 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "d0f5d1f773d733cf",
-        "type": "tabs",
-        "dimension": 52.362204724409445,
+        "id": "c69371699c7b7082",
+        "type": "split",
         "children": [
           {
-            "id": "cd708e145f0e5c9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6_C/ASP.NET/按照副檔名去做相對應的邏輯判別異常.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "54c4edffaa673f6d"
-          }
-        ]
-      },
-      {
-        "id": "0cd63e6de39c230c",
-        "type": "tabs",
-        "dimension": 47.63779527559055,
-        "children": [
-          {
-            "id": "619fc62de9a58354",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "6_C/ASP.NET/按照副檔名去做相對應的邏輯判別異常.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.0204801536494528,
-                  "close": true
+            "id": "02d2735fede7a79f",
+            "type": "tabs",
+            "dimension": 70.58823529411765,
+            "children": [
+              {
+                "id": "6b41fc858ea484a1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "6_C/Core/Core基礎模塊設定(網站).md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            },
-            "group": "54c4edffaa673f6d"
+            ]
+          },
+          {
+            "id": "45d9be5c6e0ab8c8",
+            "type": "tabs",
+            "dimension": 29.411764705882355,
+            "children": [
+              {
+                "id": "54d0731ad24a5cb1",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "6_C/Core/Core基礎模塊設定(網站).md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -115,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6_C/ASP.NET/按照副檔名去做相對應的邏輯判別異常.md",
+                "file": "6_C/Core/Core基礎模塊設定(網站).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6_C/ASP.NET/按照副檔名去做相對應的邏輯判別異常.md",
+                "file": "6_C/Core/Core基礎模塊設定(網站).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Visu",
+                "query": "Core",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -159,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6_C/ASP.NET/按照副檔名去做相對應的邏輯判別異常.md"
+                "file": "6_C/Core/Core基礎模塊設定(網站).md"
               }
             }
           },
@@ -200,37 +205,37 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3bc2dd2e50ab9ee8",
+  "active": "6b41fc858ea484a1",
   "lastOpenFiles": [
+    "6_C/Core/the entity type requires a primary key to be defined.md",
+    "6_C/Core/Core基礎模塊設定(網站).md",
+    "6_C/Core/View丟出Object reference not set to an instance of an object.md",
+    "執行緒.md",
+    "7_javascript/jQuery DOM.md",
+    "6_C/Core/Core Controller特性.md",
+    "7_javascript/js語法.md",
+    "7_javascript/js exception/DOM exception.md",
+    "7_javascript/js exception/TypeError Failed to construct FormData parameter 1 is not of type HTMLFormElement.md",
+    "7_javascript/js exception/js 函數 exception.md",
+    "8_SQL/js集合/js array.md",
     "map_to_DOM_ex.md",
-    "6_C/Core/cookie與session相關理論應用.md",
-    "exception設計準則.md",
-    "8_SQL/LINQ檔案散落各處路徑ORDER是否存在.md",
-    "Obsidian 的 Metadata，建立一套可持續迭代的筆記系統.md",
-    "Web Client模塊之間關係.md",
-    "6_C/C語法.md",
-    "6_C/指令/字串處理含格式/字串處理(含格式).md",
-    "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
-    "6_C/指令/資料庫/用多個DataTable存檔時跳出不存在資料表.md",
-    "6_C/指令/轉型/Convert與TryPrase區別.md",
-    "6_C/指令/轉型/AP做四捨五入結果不正確.md",
-    "6_C/指令/轉型/建立新資料表數字欄位型態該如何選擇.md",
-    "6_C/指令/檔案處理/檔案操作衝突依循準則.md",
-    "6_C/指令/檔案處理/系統計算VAR失敗要求重複拋檔.md",
-    "重構/重構情境.md",
-    "1_Managerment/Windows.md",
+    "6_C/C exception/ReportViewer空白頁處理.md",
+    "8_SQL/Crystal Report語法.md",
+    "8_SQL/MS-SQL語法.md",
+    "8_SQL/PROCEDUCE/BEGIN TRANSACTION 接近END之處語法不正確.md",
+    "8_SQL/PROCEDUCE/PROCEDUCE備份資料效能問題.md",
+    "8_SQL/PROCEDUCE/風管底稿文字欄位產出結果皆為NULL.md",
+    "8_SQL/SQL exception/SQL條件短路寫法邏輯炸彈.md",
+    "8_SQL/SQL查詢評估.md",
+    "8_SQL/PROCEDUCE/PROCEDUCE字串組合.md",
+    "3_Test/情境Test/Test Web Client(資料維護)要點.md",
+    "3_Test/Test各類需求模塊要點.md",
+    "6_C/ASP.NET/ASP用jQuery修改Eanbled false後台無值.md",
+    "6_C/ASP.NET/修改CSS Style導致PostBack紀錄值失效.md",
+    "6_C/ASP.NET/Debug  ASP.NET button.md",
     "5_Deployment",
     "1_Managerment",
     "2_Development",
-    "2_Development/Chorme.md",
-    "2_Development/NET環境.md",
-    "2_Development/Visual Studio.md",
-    "2_Development/SSMS.md",
-    "2_Development/POSTMAN.md",
-    "2_Development/Fast Key概論.md",
-    "1_Managerment/Excel.md",
-    "Wait_Python/PyPl.md",
-    "工具/Visual Studio問題情境.md",
     "Test/C exception/Untitled",
     "C/Core/Untitled",
     "6_C/指令/資料庫",

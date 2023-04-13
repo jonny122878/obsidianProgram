@@ -72,7 +72,8 @@ https://dotblogs.com.tw/ricochen/2011/06/23/29628
 ## 原生功能體現環境特性?
 - SP_EXECUTESQL 預存程序
   - 組合字串陷阱[[PROCEDUCE字串組合]]
-  
+  - [[BEGIN TRANSACTION 接近END之處語法不正確]]
+  - [[PROCEDUCE備份資料效能問題]]
 - INFORMATION_SCHEMA.COLUMNS 表格結構
 ps:C:\\Programs_Note\\SQL\\
 
