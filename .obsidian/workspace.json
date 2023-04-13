@@ -4,72 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "c69371699c7b7082",
-        "type": "split",
+        "id": "91038b9b44489c0e",
+        "type": "tabs",
+        "dimension": 73.05630026809652,
         "children": [
           {
-            "id": "02d2735fede7a79f",
-            "type": "tabs",
-            "dimension": 70.58823529411765,
-            "children": [
-              {
-                "id": "6b41fc858ea484a1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "6_C/Core/Core基礎模塊設定(網站).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "11eed6a75ad39f4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "45d9be5c6e0ab8c8",
-            "type": "tabs",
-            "dimension": 29.411764705882355,
-            "children": [
-              {
-                "id": "54d0731ad24a5cb1",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "6_C/Core/Core基礎模塊設定(網站).md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
+            },
+            "group": "340ecdfede8b8b89"
           }
-        ],
-        "direction": "horizontal"
+        ]
+      },
+      {
+        "id": "21536c99f2afcebb",
+        "type": "tabs",
+        "dimension": 26.943699731903486,
+        "children": [
+          {
+            "id": "3909a03dc123b61b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "340ecdfede8b8b89"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6_C/Core/Core基礎模塊設定(網站).md",
+                "file": "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6_C/Core/Core基礎模塊設定(網站).md",
+                "file": "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Core",
+                "query": "SQL查",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -164,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6_C/Core/Core基礎模塊設定(網站).md"
+                "file": "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md"
               }
             }
           },
@@ -192,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,11 +200,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6b41fc858ea484a1",
+  "active": "11eed6a75ad39f4a",
   "lastOpenFiles": [
-    "6_C/Core/the entity type requires a primary key to be defined.md",
+    "6_C/指令/資料庫/用多個DataTable存檔時跳出不存在資料表.md",
+    "8_SQL/查詢語法/Group應用.md",
+    "8_SQL/SQL查詢評估.md",
+    "8_SQL/效能調校.md",
     "6_C/Core/Core基礎模塊設定(網站).md",
+    "8_SQL/PROCEDUCE/PROCEDUCE備份資料效能問題.md",
+    "6_C/Core/DbSet理解錯誤造成LINQ無法操作.md",
+    "6_C/Core/keyword not support datasource.md",
+    "6_C/Core/Model型態綁定到View相關錯誤設定.md",
     "6_C/Core/View丟出Object reference not set to an instance of an object.md",
+    "6_C/Core/模塊相依性與遺漏設定造成錯誤.md",
+    "6_C/Core/結構綁定因遺漏設定造成異常.md",
+    "6_C/Core/EF效能問題調校.md",
     "執行緒.md",
     "7_javascript/jQuery DOM.md",
     "6_C/Core/Core Controller特性.md",
@@ -223,16 +228,6 @@
     "8_SQL/Crystal Report語法.md",
     "8_SQL/MS-SQL語法.md",
     "8_SQL/PROCEDUCE/BEGIN TRANSACTION 接近END之處語法不正確.md",
-    "8_SQL/PROCEDUCE/PROCEDUCE備份資料效能問題.md",
-    "8_SQL/PROCEDUCE/風管底稿文字欄位產出結果皆為NULL.md",
-    "8_SQL/SQL exception/SQL條件短路寫法邏輯炸彈.md",
-    "8_SQL/SQL查詢評估.md",
-    "8_SQL/PROCEDUCE/PROCEDUCE字串組合.md",
-    "3_Test/情境Test/Test Web Client(資料維護)要點.md",
-    "3_Test/Test各類需求模塊要點.md",
-    "6_C/ASP.NET/ASP用jQuery修改Eanbled false後台無值.md",
-    "6_C/ASP.NET/修改CSS Style導致PostBack紀錄值失效.md",
-    "6_C/ASP.NET/Debug  ASP.NET button.md",
     "5_Deployment",
     "1_Managerment",
     "2_Development",
