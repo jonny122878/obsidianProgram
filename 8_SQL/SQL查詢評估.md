@@ -28,7 +28,7 @@ Topics:
   - 每個集合單位換算
   - 每個集合整平資訊
 - 最後將整個集合排序
-若要SQL撈取結果寫成PROCEDUCE參考[[MS-SQL語法]]
+若要SQL撈取結果寫成PROCEDURE參考[[MS-SQL語法]]
 
 
 # Summary

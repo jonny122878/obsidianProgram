@@ -1,3 +1,30 @@
+---
+data
+aliases
+---
+# Metadata
+Status:發芽
+Source Type:工作
+Source URL:
+Project:
+Author:
+Note Type:
+Topics:
+
+# Evergreen Note
+Highlight:
+Question:
+Answer:
+# Summary
+#### 未知指令操作心法
+- 操作協定時:C#構造推想其為工具封裝成靜態類，類似**HttpContext** $.post、.ajax
+- class因其帶有集合特性，可有多個類別但都用同個字串呈現，因此跳脫attr，用addClass
+- ddl option 因其結構上與input type這種帶有**內部集合**特性，因此不為val()
+
+
+# Note
+
+
 # 引入副程式
 ex:NuGet、using.....
 - [jQuery CDN引入](https://releases.jquery.com/)

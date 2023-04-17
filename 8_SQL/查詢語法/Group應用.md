@@ -15,14 +15,29 @@ Topics:
 # Highlight:
 1.結構為表頭和表身1-M關係，想要將表身資訊給結合成一個欄位與表頭共同呈現
 # Question:
-
+for xml path('') 本身為轉換xml格式，為何可用來從1-M => 1-1
 # Answer:
 1.
+- 本質為1-M => 1-1 string，但其仍然透過XML標記將讓字串能區分集合元素，利用此特性進行重組串接
+- 在將其放在衍生欄位，透過KEY配對即能達到效果
+- 表身在整合1-1時，需用單頭KEY當欄位
 ```
-SELECT FGBAA FROM FGBAA
+SELECT FGBBAA002 FROM FGBBA GROUP BY FGBBA002 for xml path('')
+=>
+SELECT DISTINCT FGBAA002 + '|' FROM (
+SELECT DISTINCT FGBBAA002 FROM FGBBA GROUP BY FGBBA002 
+)a for xml path('')
 
-SELECT GUID,FGBBA001 As for 
+SELECT FGBAA001 //此欄位必須為分組功能單頭KEY
+,
+SELECT FGBAA002 + '|' FROM (
+SELECT DISTINCT FGBBAA002 FROM FGBBA 
+WHERE ... //外表與內表KEY配對 
+GROUP BY FGBBA002 
+)a for xml path('')
+
 FROM FGBBA
+GROUP BY FGBBA002
 
 ```
 
