@@ -42,7 +42,8 @@ GROUP BY FGBBA002
 ```
 
 
-- [PIVOT運算子](https://dotblogs.com.tw/SteveLiu/2019/05/21/173803)
+- [
+- PIVOT運算子](https://dotblogs.com.tw/SteveLiu/2019/05/21/173803)
 - 原理:原本為記錄格式,key-value,但要像報表式呈現右側為時間ex:1、2、3月...
 ,將value給group後決定投射幾個欄位
 - As別名為必要

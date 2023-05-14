@@ -41,7 +41,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 - [[EF效能問題調校]]
 - [[DbSet理解錯誤造成LINQ無法操作]]
 
-## Controller[[Core Controller特性]]:
+## Controller[[
+Core Controller特性]]:
 #### Web
 - 考慮驗證相關錯誤或成功訊息用ViewBag呈現
 - 初次造訪 return View

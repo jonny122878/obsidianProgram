@@ -83,6 +83,7 @@ Topics:
 - As:從這表格來源
 - IsNull
 - 需要order scale,ROW_NUMBER
+- [[邏輯盲點]]
 [[函數應用]]
 
 ## 將產出結果給排序

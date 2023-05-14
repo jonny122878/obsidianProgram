@@ -20,8 +20,9 @@ Answer:
 - 操作協定時:C#構造推想其為工具封裝成靜態類，類似**HttpContext** $.post、.ajax
 - class因其帶有集合特性，可有多個類別但都用同個字串呈現，因此跳脫attr，用addClass
 - ddl option 因其結構上與input type這種帶有**內部集合**特性，因此不為val()
+- $選取器有些像裝飾器東西，將HtmlElement丟入之後即可操作其對應method
 
-
+-[[選取器理解錯誤造成問題]]
 # Note
 
 

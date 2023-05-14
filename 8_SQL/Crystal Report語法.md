@@ -25,6 +25,6 @@ ps:要注意運算式顯示或隱藏應先false是hidden,true是show
 MS-SQL撈出欄位特性
 查詢欄位:原生表格
 導出欄位:顧名思義是經過計算
-- [[ReportViewer空白頁處理]]
+- [[rdl空白頁和可視性]]
 
 

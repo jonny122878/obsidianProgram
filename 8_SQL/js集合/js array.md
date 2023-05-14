@@ -7,6 +7,14 @@
 ## Zip
 ## Group
 ## Order
+函數編程風格透過**數學**方式達到升、降序效果
+```
+myArray.sort(function(a, b) { return a - b; });
+a - b ASC
+b - a DESC
+```
+推論條件式a - b 前面比較小就符合，因此為升序
+
 ## Function
 
 # 動作指令語法

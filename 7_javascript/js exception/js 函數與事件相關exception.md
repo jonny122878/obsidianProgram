@@ -1,22 +1,38 @@
-[[exception 規範]]
+---
+data:
+aliases:
+---
+# Metadata
+Status:發芽
+Source Type:
+Source URL:
+Project:租貸
+Author:
+Note Type:
+Topics:
 
 
-- 錯誤訊息:Uncaught TypeError:object Array is not a function
-- 判別:函式調用錯誤,dataArr.filter(dataArr,function(e){})
+# Highlight:
+3.再調用keyborad event發現二者都能指定不會exception
+# Question:
+1.調用function some時做防呆時不管甚麼情境都是return false
+2.Uncaught **TypeError**:object Array is not a function
+3.再指定event掛載時,onchange = function() { },與 = function(e){ }差異
+# Answer:
+1.語法遺漏return ....，導致都為default
+2.函式理解調用錯誤,dataArr.filter(dataArr,function(e){})
+3.
+- 可以想像其為函式多載exception情況
+- 當有參數時可針對其對應作掛載event作判別，ex:keyborad系列參數就是 keycode
 
-- 疑惑點:調用event，onchange(){} exception
-- 情境:
-- 判別:直覺function first再使用時都用function指定
+
+
+
 
 - 疑惑點:想要讓使用者再此輸入框不能輸入任何值，該使用keypress、keyup、keydown何者?
 - 情境:click textbox時為彈出calendar元件,使用者只能透過此方式輸入,不能透過用手keyin方式
 - 判別:此特性描述,因完全不能調用鍵盤,按照此上述3 event特性,選keyup(因其為鍵盤event順序最後並且其為最新輸入值)
 
-- 疑惑點:再指定event掛載時,onchange = function() { },與 = function(e){ }差異
-- 情境:再調用keyborad event發現二者都能指定不會exception
-- 判別:
-  - 可以想像其為函式多載exception情況
-  - 當有參數時可針對其對應作掛載event作判別，ex:keyborad系列參數就是 keycode
 
 - 疑惑點:
 - 情境:再做addEventListener掛載時,常常忘記如何調用

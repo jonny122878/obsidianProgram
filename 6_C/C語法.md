@@ -1,38 +1,29 @@
 ---
-data
-aliases
+data:
+aliases:
 ---
 # Metadata
 Status:發芽
-Source Type:工作
+Source Type:
 Source URL:
-Project:
+Project:總結
 Author:
 Note Type:
 Topics:
 
-# Evergreen Note
-Highlight:
-Question:
-Answer:
-# Summary
 
-# Note
+## 語言存在環境特性?
+- 最小單位為class
+## 語言型別衝突呈現:如何declare?、exception所丟出?
 
-
-# 組成構造
-## 特性
-最小單位為class
-## 分隔符
-## 型別(含轉型)
-- 副程式
-  - using System; => DateTime
-  - using System.Collections.Generic; => KeyValuePair
+### 型別所屬using
+- using System; => DateTime
+- using System.Collections.Generic; => KeyValuePair
 - [型態之間比較as,switch](https://blog.xuite.net/hsiung03/blog/63883241#)
-## 變數
+## 變數、條件、迴圈、函式四大基礎所對應語法?
+## 變數(含結構體)
 - 變數名稱不能有如下符號:-、 
-## 結構集合
-- new初始化字典
+- new初始化**字典**建構子
 ```
 var dict = new Dictionary<string, string>() 
 { 
@@ -41,6 +32,8 @@ var dict = new Dictionary<string, string>()
 };
 ```
 - get、set屬性選取器是可以再用private去修飾
+- **byte** array 職責存**圖片、影片**等...
+- [[DataTable參考型別理解錯誤]]
 ## 廻圈
 ## 條件
 - [NULL物件調用,型別符號處理](https://www.dotblogs.com.tw/MemoryRecall/2021/07/25/172410)
@@ -51,7 +44,15 @@ var dict = new Dictionary<string, string>()
   |:---|:---|:---|
   |KeyPress|KeyPressEventArgs|e.KeyChar == (char)Keys.Enter|
   |KeyDown|KeyPressEventArgs|KeyAscii == Convert.ToDecimal(Keys.Escape)|
-  
+- partial修飾子協同開發
+## 原生功能體現環境特性?
+
+
+
+
+
+
+
 # limit
 ## 特性
 ## 分隔符

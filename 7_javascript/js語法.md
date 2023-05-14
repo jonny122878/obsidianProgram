@@ -17,8 +17,9 @@ Topics:
 因此指令種類區分:
 - window(基礎功能:ex:網址、初始化跳轉位置)
 - document(平常最常用到,使用者互動,依附在[[js DOM]]下)
--  後來推出語法精簡操作DOM[[jQuery]]
+  -  後來推出語法精簡操作DOM[[jQuery]]
 - 語言自身
+  - 解決弱型別難以Debug[[TypeScript]]
 ### 調用心法
 ###### Debug要有這基本認知
 - 純弱型別語言，可動態重複指定**override原本型別**
@@ -26,6 +27,7 @@ Topics:
 	ex:變數declare Array 再指定其atttribute (類似強型別指定class)
 ###### 未知語法思考
 - function first 表示語言最小單位為**function**,(未知語法調用時參數傳function就對了)
+ex:event、LINQ
 ###### 撰寫起手式
 - 因其為弱型別不會exception,再起手式必定要防呆時需多考慮**各種exception型別**
 	ex:像是若要防呆集合類型在jQuery可用 $.isArray
@@ -84,7 +86,7 @@ let user = {ID:1,Name:"test"};
       alert('twice click Content');
     });
      ```
-     語法理解錯誤常見誤區[[js 函數 exception]]
+     語法理解錯誤常見誤區[[js 函數與事件相關exception]]
     
 
 |event|功能|
@@ -104,3 +106,7 @@ let user = {ID:1,Name:"test"};
 #### extension method prototype
 - extension method都是透過此屬性override:
 - ex:Object.prototype
+#### inherit static method
+- Object.keys，字典取每個KeyValuePair的key
+#### 延遲查詢
+- 所丟入參數為函數都帶有此特性,特有 call back function,ex:addEventListener

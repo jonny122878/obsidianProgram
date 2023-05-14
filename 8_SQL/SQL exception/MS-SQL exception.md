@@ -46,11 +46,9 @@
 
 ## 臨界自動判別
 
-- 情境:當欄位為空字元調用SUBSTRING
-- 判別:'類似型別特性不會exception,return 空字元
 
-- 情境:aggrgate function ex:MAX、MIN，若此集合為空則return?
-  - NULL
+
+
 
 - 情境:Where條件式整數與小數做比較return?
   - 小數位需指定到確切位數，否則不成立

@@ -20,10 +20,11 @@ Answer:
 - 每個結構按照特性分為元素和集合，若是集合則帶有集合內**元素間分佈度量**
 - 存取尺度:
   - 順序
-  - 名目[[型態定義理解造成操作上錯誤]]    
+  - 名目[[字串型態定義理解造成操作上錯誤]]    
   - 間距[[數字型態定義理解錯誤情境]]
   - 倍率
   - 類別
+- [[函數limit情境]]
 ### PK組成
 - Portfolio Product ProductID ProductGroup
 - Product ProductID ProductGroup
