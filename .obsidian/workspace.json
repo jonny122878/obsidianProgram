@@ -6,14 +6,63 @@
       {
         "id": "c7a439799f1b5cae",
         "type": "tabs",
+        "dimension": 61.652281134401974,
         "children": [
           {
             "id": "22a009025ee615e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
+              "type": "markdown",
+              "state": {
+                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "3d3d5fefc60ae8c6"
+          }
+        ]
+      },
+      {
+        "id": "9d152b0c3b7fb538",
+        "type": "tabs",
+        "dimension": 38.34771886559803,
+        "children": [
+          {
+            "id": "3a508674a6348de9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "3d3d5fefc60ae8c6"
           }
         ]
       }
@@ -74,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQL",
+                "query": "LINQ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "8_SQL/SQL exception/LINQ本身與法限制.md"
+              }
             }
           },
           {
@@ -157,32 +210,32 @@
   },
   "active": "22a009025ee615e4",
   "lastOpenFiles": [
+    "8_SQL/SQL exception/LINQ exception.md",
+    "8_SQL/SQL exception/LINQ本身與法限制.md",
+    "8_SQL/SQL exception/LINQ limit.md",
+    "8_SQL/SQL對照/LINQ vs SQL.md",
+    "8_SQL/LINQ檔案散落各處路徑ORDER是否存在.md",
+    "6_C/指令/資料庫/DataTable參考型別理解錯誤.md",
+    "6_C/C語法.md",
+    "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
+    "6_C/C exception/rdl空白頁和可視性.md",
+    "7_javascript/jQuery.md",
+    "8_SQL/js集合/jQuery array.md",
+    "2_Development/Fast Key概論.md",
     "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
     "7_javascript/js語法.md",
-    "6_C/C語法.md",
-    "6_C/指令/資料庫/DataTable參考型別理解錯誤.md",
     "3_Test/code exception/http code exception.md",
     "3_Test/環境exception.md",
-    "6_C/C exception/rdl空白頁和可視性.md",
     "8_SQL/js集合/js array.md",
     "7_javascript/Angular環境設定相關議題.md",
     "7_javascript/TypeScript.md",
     "7_javascript/js exception/選取器理解錯誤造成問題.md",
-    "7_javascript/jQuery.md",
     "8_SQL/SQL exception/jQuery array exception.md",
     "7_javascript/前端語言框架發展史.md",
     "8_SQL/SQL exception/字串型態定義理解造成操作上錯誤.md",
     "8_SQL/SQL抽象結構.md",
     "7_javascript/js exception/js 函數與事件相關exception.md",
     "7_javascript/js DOM.md",
-    "7_javascript/js exception/js型態轉型造成錯誤.md",
-    "html/css情境調整.md",
-    "8_SQL/查詢語法/combobox來源ORDER BY default疑問.md",
-    "8_SQL/查詢語法/Group應用.md",
-    "8_SQL/MS-SQL語法.md",
-    "8_SQL/SQL exception/MS-SQL exception.md",
-    "8_SQL/SQL exception/邏輯盲點.md",
-    "8_SQL/SQL exception/函數limit情境.md",
     "8_SQL/Untitled",
     "5_Deployment",
     "1_Managerment",
