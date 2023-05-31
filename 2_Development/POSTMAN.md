@@ -6,7 +6,7 @@ aliases
 Status:發芽
 Source Type:江，心得
 Source URL:
-Project:早點下班
+Project:早點下班、金財通
 Author:
 Note Type:
 Topics:
@@ -24,6 +24,21 @@ Answer:
     - Value:application/x-www-form-urlencoded
     - Value:multipart/form-data(上傳檔案)
   - 組合結果: https://url/Controller/Action?name1=value1&name2=value2
+#### POST中FromBody參數設定
+- 夾帶位置是否為Body
+- 格式是否為raw
+- 型別為JSON(application/json)
+- 會有直覺錯誤參數情境
+```
+ActionName ([FromBody] long sysSettingId)
+{sysSettingId:10}
+10
+```
+ps:第一行結果為直覺上錯誤，其非JSON並無KEY，直接傳數字即可
+- 後端接收reponse參數參考[[Core Controller特性]]和[[Api 應用Controller]]
+POSTMAN在發送時相關錯誤資訊參考如下:
+- [[http code exception]]
+- [[API Prase JSON簽章和參數相關問題]]
 
 #### 應用
 - 寫前後分離專案時可先透過此工具模擬server，讓前端先行test

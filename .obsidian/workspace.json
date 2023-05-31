@@ -6,65 +6,33 @@
       {
         "id": "c7a439799f1b5cae",
         "type": "tabs",
-        "dimension": 61.652281134401974,
         "children": [
           {
-            "id": "22a009025ee615e4",
+            "id": "4623dd145bc07170",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
+                "file": "6_C/Core/Web應用Controller.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "3d3d5fefc60ae8c6"
-          }
-        ]
-      },
-      {
-        "id": "9d152b0c3b7fb538",
-        "type": "tabs",
-        "dimension": 38.34771886559803,
-        "children": [
+            }
+          },
           {
-            "id": "3a508674a6348de9",
+            "id": "8812504f1c2a8d8f",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
+                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+                "mode": "source",
+                "source": false
               }
-            },
-            "group": "3d3d5fefc60ae8c6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,6 +44,7 @@
       {
         "id": "9798e5caa54d8d81",
         "type": "tabs",
+        "dimension": 70.58823529411765,
         "children": [
           {
             "id": "3bc2dd2e50ab9ee8",
@@ -104,10 +73,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "447e087ff7b26aae",
+        "type": "tabs",
+        "dimension": 29.411764705882355,
+        "children": [
+          {
+            "id": "e010eab34b292dae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 265.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -116,6 +103,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
+        "dimension": 54.11764705882353,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
+                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8_SQL/SQL exception/LINQ本身與法限制.md",
+                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LINQ",
+                "query": "POSTMAN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -167,18 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_SQL/SQL exception/LINQ本身與法限制.md"
-              }
-            }
-          },
-          {
-            "id": "e010eab34b292dae",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md"
               }
             }
           },
@@ -191,11 +168,53 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
+      },
+      {
+        "id": "3a3c1b16920c9c0e",
+        "type": "tabs",
+        "dimension": 45.88235294117647,
+        "children": [
+          {
+            "id": "4161563ece857913",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9999999999999997,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 436.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,34 +227,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "22a009025ee615e4",
+  "active": "8812504f1c2a8d8f",
   "lastOpenFiles": [
-    "8_SQL/SQL exception/LINQ exception.md",
-    "8_SQL/SQL exception/LINQ本身與法限制.md",
-    "8_SQL/SQL exception/LINQ limit.md",
-    "8_SQL/SQL對照/LINQ vs SQL.md",
-    "8_SQL/LINQ檔案散落各處路徑ORDER是否存在.md",
-    "6_C/指令/資料庫/DataTable參考型別理解錯誤.md",
-    "6_C/C語法.md",
-    "6_C/指令/資料庫/DataTable移轉資料順序與名目尺度選擇.md",
-    "6_C/C exception/rdl空白頁和可視性.md",
-    "7_javascript/jQuery.md",
-    "8_SQL/js集合/jQuery array.md",
-    "2_Development/Fast Key概論.md",
-    "新格式/AP在存檔時丟出MS-SQL相關錯誤訊息.md",
-    "7_javascript/js語法.md",
+    "6_C/Core/Core Controller特性.md",
+    "6_C/Core/Api 應用Controller.md",
+    "2_Development/POSTMAN.md",
+    "6_C/Core/Web應用Controller.md",
+    "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+    "Untitled 1.md",
+    "6_C/Core/cookie與session相關理論應用.md",
     "3_Test/code exception/http code exception.md",
-    "3_Test/環境exception.md",
-    "8_SQL/js集合/js array.md",
-    "7_javascript/Angular環境設定相關議題.md",
-    "7_javascript/TypeScript.md",
-    "7_javascript/js exception/選取器理解錯誤造成問題.md",
-    "8_SQL/SQL exception/jQuery array exception.md",
-    "7_javascript/前端語言框架發展史.md",
-    "8_SQL/SQL exception/字串型態定義理解造成操作上錯誤.md",
+    "html/前台版型迭代.md",
+    "2_Development/Visual Studio Code.md",
+    "2_Development/Fast Key概論.md",
+    "Template/Fast Key情境.md",
+    "7_javascript/js exception/Angular元件綁定相關問題.md",
+    "8_SQL/SQL exception/SQL語法直覺錯誤.md",
+    "重構/重構情境.md",
+    "7_javascript/Angular.md",
+    "Angular綁定轉型相關議題.md",
+    "8_SQL/查詢語法/combobox來源ORDER BY default疑問.md",
+    "8_SQL/SQL exception/SQL關聯式錯誤.md",
+    "8_SQL/SQL查詢評估.md",
     "8_SQL/SQL抽象結構.md",
-    "7_javascript/js exception/js 函數與事件相關exception.md",
-    "7_javascript/js DOM.md",
+    "8_SQL/SQL抽象查詢.md",
+    "8_SQL/SQL exception/邏輯盲點.md",
+    "2_Development/前端如何配置目前本機與開發專案版本一致.md",
+    "7_javascript/Angular三層式架構.md",
+    "7_javascript/TypeScript.md",
     "8_SQL/Untitled",
     "5_Deployment",
     "1_Managerment",

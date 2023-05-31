@@ -20,21 +20,13 @@ Answer:
   - 生命週期可以跨Action，ex:Delete Action沒有畫面成功之後在跳轉回Index 
 #### Controller內若不存在ViewData是否可調用?
   - 可以，預設null 
-#### 套用ApiController差異再於?
-  - 模型驗證失敗Controller內不會再寫Model.IsValid 
-  - 取代會輸出JSON並且內部含status code 400
-  - 必須搭配[RoutePrefix("Member")]、[Route("Get")] 
 #### Controller參數預設為?
   - 簡單型別[FormQuery]
   - 參考型別[FormBody]
   - IFormFile[FormForm] 
-#### API vs Web Controller?
-  - inherit基底不同controller and controllerbase
-  - controller除了原本Web API功能之外，還多了View相關
-  - return abstract class也不同，API只回傳http code
-  - [API解說](https://blog.miniasp.com/post/2019/09/16/ASPNET-Core-22-Web-API-Tips-and-Tricks)
-  - [return code解析](https://www.cnblogs.com/landeanfen/p/5501487.html)
 
+[[Api 應用Controller]]
+[[Web應用Controller]]
 # Note
 #### 引入副程式
 ex:NuGet、using.....
@@ -59,23 +51,11 @@ ex:NuGet、using.....
 
 
 
-- 串接API return "ExceptionMessage": "找到多個符合下列要求的動作?
-  - Controller參數預設型態宣告不能再宣告同樣，ex:[FormBody] class
-- 串接API return "Message": "此資源不支援要求實體的媒體類型 'application/javascript'。"?
-  - Controller參數預設型態串接不符，class = json
-- POSTMAN串接API用js內語法不符?
-  - POSTMAN都要雙引號 "Name":"add", 
 
-- Api優勢再於?
-  - 當此服務需在多個平台上運行，ex:web、Android、IOS就可帶有類似提煉副程式功能 
-- RESTful API不能帶有狀態性?
-  - 若此服務需要呼叫2個API，但若其中1個API完成後就斷線了無法處理
-- API核心要解決問題?
-  - 資料交換的過程中，最重要的一環就是建立共識，或者說是建立原則以降低溝通成本
+
 - return Json是否可對應到名稱cshtml?
   - 無法，只有View型態才行 
-- API安全術語含義?
-- API冪等術語含義? 
+
 - 呼叫Api的Action找不到路徑?
   - api Router default為Controller/id,因為沒有加Action所以找不到
   - default參數要記得設定,否則會造成參數一定要打值情況

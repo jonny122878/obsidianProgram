@@ -14,16 +14,21 @@ Topics:
 
 # Highlight:
 3.再調用keyborad event發現二者都能指定不會exception
+4. 調用Array上
 # Question:
 1.調用function some時做防呆時不管甚麼情境都是return false
 2.Uncaught **TypeError**:object Array is not a function
 3.再指定event掛載時,onchange = function() { },與 = function(e){ }差異
+4. :psuh、shift、pop、unshift差異,pop無資料情況
 # Answer:
 1.語法遺漏return ....，導致都為default
 2.函式理解調用錯誤,dataArr.filter(dataArr,function(e){})
 3.
 - 可以想像其為函式多載exception情況
 - 當有參數時可針對其對應作掛載event作判別，ex:keyborad系列參數就是 keycode
+4. 附加索引順序上,push常用理解就是附加在尾端,**unshift反之**，非直覺shift
+
+
 
 
 
@@ -45,10 +50,6 @@ Topics:
 - 判別:
   - js特性弱型別語言,就像再調用其它集合一樣,它再foreach時就有迭代器構造
   - 然後用再用function(item,index)去override每個元素要做的事
-
-- 疑惑點:psuh、shift、pop、unshift差異,pop無資料情況
-- 情境:再調用Array上
-- 判別:再附加索引順序上,push常用理解就是附加在尾端,shift反之
 
 - 疑惑點:pop無資料情況
 - 情境:

@@ -15,7 +15,7 @@ Topics:
 ## 語言存在環境特性?
 - 最小單位為class
 ## 語言型別衝突呈現:如何declare?、exception所丟出?
-
+- [[C轉型相關異常]]
 ### 型別所屬using
 - using System; => DateTime
 - using System.Collections.Generic; => KeyValuePair

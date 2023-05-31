@@ -21,6 +21,8 @@ Answer:
 - 大量INSERT時關閉索引
 - BATCH INSERT
 - BULK INSERT
+- 型別上檢查ntext查詢會遠小於nvarcahr(max)
+
 #### 關閉資訊
 - [[PROCEDUCE備份資料效能問題]]
 

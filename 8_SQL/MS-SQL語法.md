@@ -70,7 +70,7 @@ ex:[SQL_Loop_example](######Loop_SQL_ex)
 - 資料表可掛觸發程序
 - 去更新令張表
 https://dotblogs.com.tw/ricochen/2011/06/23/29628
-
+[[SQL語法直覺錯誤]]
 
 
 ## 原生功能體現環境特性?
