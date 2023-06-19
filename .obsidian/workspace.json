@@ -4,35 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "c7a439799f1b5cae",
+        "id": "dd7bed009cc5b671",
         "type": "tabs",
         "children": [
           {
-            "id": "4623dd145bc07170",
+            "id": "5520619c6f98a266",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_C/Core/Web應用Controller.md",
+                "file": "2_Development/VS Code IDE.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8812504f1c2a8d8f",
+            "id": "a9d8fdb139a5e32c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+                "file": "2_Development/VS Code ShortKey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c7b5bf2b3dacb8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_Development/VS Short Key.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 200
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -103,7 +114,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
-        "dimension": 54.11764705882353,
+        "dimension": 60.44117647058823,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+                "file": "2_Development/VS Code IDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,24 +134,12 @@
             }
           },
           {
-            "id": "afbb194f5bd780dc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "708101c348df4317",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "POSTMAN",
+                "query": "VS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -150,12 +149,24 @@
             }
           },
           {
+            "id": "afbb194f5bd780dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2_Development/VS Code IDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "fab9b278870709dc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md"
+                "file": "2_Development/VS Code IDE.md"
               }
             }
           },
@@ -173,7 +184,7 @@
       {
         "id": "3a3c1b16920c9c0e",
         "type": "tabs",
-        "dimension": 45.88235294117647,
+        "dimension": 39.55882352941176,
         "children": [
           {
             "id": "4161563ece857913",
@@ -181,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
+                "file": "2_Development/VS Code IDE.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -189,11 +200,33 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
-                  "showTags": false,
+                  "showTags": true,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
-                  "colorGroups": [],
+                  "colorGroups": [
+                    {
+                      "query": "tag:#知識",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "tag:#資訊",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "tag:#資料",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    }
+                  ],
                   "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
@@ -204,7 +237,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9999999999999997,
+                  "scale": 0.6346285676930591,
                   "close": true
                 }
               }
@@ -214,7 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.5
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,34 +260,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8812504f1c2a8d8f",
+  "active": "5520619c6f98a266",
   "lastOpenFiles": [
-    "6_C/Core/Core Controller特性.md",
-    "6_C/Core/Api 應用Controller.md",
-    "2_Development/POSTMAN.md",
-    "6_C/Core/Web應用Controller.md",
-    "6_C/C exception/API Prase JSON簽章和參數相關問題.md",
-    "Untitled 1.md",
-    "6_C/Core/cookie與session相關理論應用.md",
-    "3_Test/code exception/http code exception.md",
-    "html/前台版型迭代.md",
-    "2_Development/Visual Studio Code.md",
     "2_Development/Fast Key概論.md",
+    "2_Development/Chorme.md",
+    "2_Development/VS Short Key.md",
+    "2_Development/VS Code ShortKey.md",
     "Template/Fast Key情境.md",
-    "7_javascript/js exception/Angular元件綁定相關問題.md",
-    "8_SQL/SQL exception/SQL語法直覺錯誤.md",
-    "重構/重構情境.md",
+    "2_Development/VS Code IDE.md",
+    "2_Development/VS IDE.md",
+    "7_javascript/Angular環境設定exception.md",
+    "7_javascript/js exception/Angular裝飾器exception.md",
+    "Template/Note.md",
+    "7_javascript/js exception/Angular元件綁定exception.md",
     "7_javascript/Angular.md",
-    "Angular綁定轉型相關議題.md",
-    "8_SQL/查詢語法/combobox來源ORDER BY default疑問.md",
-    "8_SQL/SQL exception/SQL關聯式錯誤.md",
-    "8_SQL/SQL查詢評估.md",
-    "8_SQL/SQL抽象結構.md",
-    "8_SQL/SQL抽象查詢.md",
-    "8_SQL/SQL exception/邏輯盲點.md",
-    "2_Development/前端如何配置目前本機與開發專案版本一致.md",
-    "7_javascript/Angular三層式架構.md",
     "7_javascript/TypeScript.md",
+    "7_javascript/js exception/TypeScript轉型exception.md",
+    "Template/exception.md",
+    "7_javascript/js exception/Angular不丟exception.md",
+    "7_javascript/js exception/Angular變數生命週期exception.md",
+    "7_javascript/js exception/Angular函數exception.md",
+    "2023-06-18test.md",
+    "8_SQL/PROCEDUCE/暫存表作用域.md",
+    "html/bootstrap exception.md",
+    "html/排版底層原理.md",
+    "html/前台版型迭代.md",
+    "html/版型.md",
+    "html/html情境調整.md",
+    "html/排版exception.md",
+    "Pasted image 20230617173506.png",
     "8_SQL/Untitled",
     "5_Deployment",
     "1_Managerment",

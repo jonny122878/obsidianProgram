@@ -20,11 +20,11 @@ Answer:
 - 每個結構按照特性分為元素和集合，若是集合則帶有集合內**元素間分佈度量**
 - 存取尺度:
   - 順序
-  - 名目[[字串型態定義理解造成操作上錯誤]]    
-  - 間距[[數字型態定義理解錯誤情境]]
+  - 名目[[SQL字串和日期型別exception]]    
+  - 間距[[數字型別exception]]
   - 倍率
   - 類別
-- [[函數limit情境]]
+- [[SQL和LINQ函數exception]]
 ### PK組成
 - Portfolio Product ProductID ProductGroup
 - Product ProductID ProductGroup
@@ -39,6 +39,8 @@ Answer:
 ### C衍生結構
 - 帶有key字典，延伸ILookup(可以有重複概念)
  - 每個元素一樣List，延伸Array(實值型別)
+## 系統設計
+- NULL情境適用combobox default都未選擇情況
 # Note
 
 

@@ -21,21 +21,30 @@ var results = access.QueryList<DmCommonPolicyClauseInfoModel>(strSql, parm);
 ```
 3. 衍生上述情境為了將組出來SQL方便瀏覽，加入換行符號
 4. 在Dapper用SQL撈取後填入DTO
-5. 撰寫預存程序
-6. 撰寫函數
-7. 在Oracle中進行主表JOIN副表取得資訊細節後ORDER BY
-8. 撰寫預存程序挖空參數
-9. 撰寫預存程序要將計算表格放入變數
-10. 在Oracle中，主表JOIN副表取得相關資訊，並用WHERE條件
+5. 同上
+6. 撰寫預存程序
+7. 撰寫函數
+8. 在Oracle中進行主表JOIN副表取得資訊細節後ORDER BY
+9. 撰寫預存程序挖空參數
+10. 撰寫預存程序要將計算表格放入變數
+11. 在Oracle中，主表JOIN副表取得相關資訊，並用WHERE條件
+12. 在Oracle調用Select語句
+13. 在Oracle SQL Developer中調用SQL語句
 # Question:
 1. insert into table values ()出現錯誤
 4. 看起來筆數並沒有邏輯錯誤，數量為正確，但所對應欄位都是空值
-5. 丟出訊息:在有預期條件內容指定非布林運算式,接近BEGIN
-6. 丟出訊息:在函式中使用副作用運算子,'INSERT EXEC' 無效
-7. 'ORA-00904: "BUSINESS_CD_NAME": 無效的 ID'
-8. 當SQL要改成用string取組合時,單引號exception
-9. 除非同時指定了TOP、OFFSET或FOR XML，否則ORDER BY在檢視表、內建函式、衍生資料表、子查詢及通用資料表運算式中均為無效
-10. Invalid parameter binding Arg_ParamName_Name
+5. 衍生若Select述句投射欄位並DTO屬性，是否會exception
+6. 丟出訊息:在有預期條件內容指定非布林運算式,接近BEGIN
+7. 丟出訊息:在函式中使用副作用運算子,'INSERT EXEC' 無效
+8. 'ORA-00904: "BUSINESS_CD_NAME": 無效的 ID'
+9. 當SQL要改成用string取組合時,單引號exception
+10. 除非同時指定了TOP、OFFSET或FOR XML，否則ORDER BY在檢視表、內建函式、衍生資料表、子查詢及通用資料表運算式中均為無效
+11. Invalid parameter binding Arg_ParamName_Name
+12. Oracle中Select述句表格名稱有null?
+```
+from FUN_GET_INS(null) 
+```
+13. 明明資料庫訊息已經呈現刪除筆數完畢，用EF撈取卻還有資料?
 # Answer:
 1. 將程式Prase SQL貼到MS-SQL後，發現是**直覺理解**有問題，若不打欄位情況下每個欄位值都必須要塞值
 2. Oracle中SQL不能直接copy要做一些格式相關處理
@@ -46,7 +55,8 @@ CLAUSE_NAME_ENG like '%1%' 。no
 strSql += @" AND APPROVE_NO like '%' || :approveNo || '%' \n "; 。no
 ```
 4. 檢查SQL中述句SELECT，需要弄As別名讓其和DTO屬性欄位一致
-5. IF條件式沒寫好，在MS-SQL為成對式
+5. 直覺思考別名無對應到跟無投射欄位是同樣情況，因此不會exception
+6. IF條件式沒寫好，在MS-SQL為成對式
 ```
 IF 
 BEGIN
@@ -62,6 +72,8 @@ strSql += @" AND a.nc_prod_policy_clause_id = :a.nc_prod_policy_clause_id "; ok
 
 strSql += @" AND a.nc_prod_policy_clause_id = :a.nc_prod_policy_clause_id "; error
 ```
+12. Oracle中調用函數語法可以和撈取表格相同，null表示參數
+13. 在Oracle SQL Developer要**確認變更**
 
 
 ## 臨界自動判別

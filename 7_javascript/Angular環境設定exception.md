@@ -15,10 +15,11 @@ Topics:
 # Highlight:
 1.創建新Angular專案
 2,3.Angular cli做基架Load新專案
-
+4. 發現http code 500狀態為Angular專案中proxy.config.json連線協定所造成
 # Question:
 2.Please update your Node.js version or visit https://nodejs.org/ for additional instructions.
 3.檔案 C:\Users\bayon\AppData\Roaming\npm\ng.ps1 未經數位簽署。
+4. 更改後發現並無效果
 # Answer:
 1.
 - npm install -g @angular/cli
@@ -28,5 +29,4 @@ Topics:
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ```
-
-
+4. json檔案部分需關閉後重啟npm start

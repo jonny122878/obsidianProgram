@@ -1,3 +1,17 @@
+# 支援功能
+- Element瀏覽所套用css樣式
+- 讓開發工具給獨立式呈現
+- 模擬各種不同裝置呈現
+- 獲取css實際套用**權重**
+- ctrl+f找出父子節點 error 
+- edit html css 
+- element in event of environment error
+- [六角學院](https://www.udemy.com/course/chrome-devtools/learn/lecture/5401532#overview)
+
+
+
+
+
 # 解決問題情境
 ## 移除不要或需要新功能
 更多工具(最右側三個黑點打開) => 擴充功能
@@ -6,15 +20,6 @@
 
 
 
-# 支援功能
-- Element瀏覽所套用css樣式
-- 讓開發工具給獨立式呈現
-- 模擬各種不同裝置呈現
-- 獲取css實際套用權重
-- ctrl+f找出父子節點 error 
-- edit html css 
-- element in event of environment error
-- [六角學院](https://www.udemy.com/course/chrome-devtools/learn/lecture/5401532#overview)
 
 # limit
 - net core無法Debug?

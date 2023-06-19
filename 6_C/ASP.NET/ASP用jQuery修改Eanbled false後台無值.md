@@ -26,5 +26,5 @@ AP頁面上有textbox與cocmbobox,textbox.Enabled = false,用jQuery做類似sele
 Request.Form["Key"]
 ```
 上述範例為html form method=post中UI元件
-可透過[[Visual Studio]]監看式Requset.Form.AllKey去瀏覽
+可透過[[VS Short Key]]監看式Requset.Form.AllKey去瀏覽
 

@@ -10,42 +10,74 @@ Project:
 Author:
 Note Type:
 Topics:
-
+#資訊
 # Evergreen Note
 Highlight:
 Question:
 Answer:
 # Summary
 - 實作概念[[前端語言框架發展史]]
-- 環境配置[[Angular環境設定相關議題]]
+- 環境配置[[Angular環境設定exception]]
 - [[TypeScript]]
 - [[Angular三層式架構]]
 ## 構造
 綁定為各單位之間溝通很重要概念，無論單位為模塊、父子、層次...都是透過分割成單位後綁定將其溝通串起來
 #### 本身模塊與模塊之間溝通是透過綁定方式去呈現
-###### 模塊之間綁定
-- [[Angular綁定轉型相關議題]]
-- [[Angular元件綁定相關問題]]
+###### 檔案綁定
+- [[Angular元件綁定exception]]
+- [[Angular不丟exception]]
+- [[Angular變數生命週期exception]]
+- [[Angular函數exception]]
+- [[Angular裝飾器exception]]
 - View => html、css
-- ViewModel => ts
-- Model => 後端來源
-###### 父子層之間綁定
+- ViewModel => component.ts
+- Register component => module.ts
+- API => service.ts
+- Model => module.ts
+###### 模塊綁定
+- 插值綁定(component => html): ex:table呈現 
+- 屬性綁定: ex:編輯狀態表單填值 
+- 事件綁定(html => component): ex:提交表單
+- 雙向??
+
+```
+{{value}}
+[value]="name"
+(click)="save()"
+```
+###### 階層綁定
 - Output 子 =>父。ex:首頁上方查詢表單按鈕事件
 - Input 父 => 子。ex:下拉選單來源散落在多個新增頁籤頁面
-###### html父層區塊之間綁定
+###### 階層綁定範例情境解說
+首頁表格中表格列有編輯鈕，click後進行將此列資料跳轉到編輯頁面
+- 表格列檔案如下:先找出Output中裝飾器名稱當key去主html搜尋
+```
+prod-clause-query-list:
+html:
+ts:
+@Output() editClick = new EventEmitter<CommonQueryModel>();
+edit(data: DmCommonPolicyClauseInfoModel): void {  this.editClick.emit(this.commonQueryKey);
+}
+```
+- 主html如下:
+- 用Output key去找到指定方法，並且用方法當key
+- 用方法key再找對應html區塊別名
 - 區塊之間放入ID做識別
 - 透過html區塊method取找出對應區塊ID
-- 找到區塊ID再找出對應資料夾
-- 資料夾內子html對應component
 ```
-<prod-clause-query-form (queryClick)="clauseList.query($event)">
-<prod-clause-query-list #clauseList>
+<prod-clause-query-list #clauseList
+(editClick)="clauseDetail.edit($event);
+<prod-clause-detail-form #clauseDetail
 ```
-
-綁定方式分為單向View、ViewModel、雙向
+- 編輯頁面結構如下:再用剛剛方法key去找對應component方法
+```
+prod-clause-detail-form
+ts:
+add(): void {
+```
 #### 再透過發揮SRP精神透過裝飾器將其按照職責區分
-- 基礎component => 負責此頁面顯示功能
-- service => 負責此頁面業務邏輯功能
+- 基礎Component => 負責此頁面顯示功能
+- Injectable => 負責此頁面業務邏輯功能
 - pipe => 將其想成extension method
 #### 發揮SPA精神
 - 物理上只有一個頁面，就是app.component.html
@@ -53,7 +85,8 @@ Answer:
   - 透過app-route.model.ts (模擬不同網址單一頁面生成不同元件)
   - app.component.html中router-outlet標籤 (模擬不同網址單一頁面生成不同元件)
   - app.module.ts (元件註冊)
-#### 模塊間綁定
+  
+#### 模塊間綁定 ??
 - module.ts register component.html 和MVC中Controller與View**倒置**，此職責用來app能識別
 - component register model、service
 

@@ -1,5 +1,5 @@
 ---
-data:
+date:
 aliases:
 ---
 # Metadata

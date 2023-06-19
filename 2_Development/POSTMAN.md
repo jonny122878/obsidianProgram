@@ -46,5 +46,6 @@ POSTMAN在發送時相關錯誤資訊參考如下:
   - 疑問點:API為無狀態，此情況為何需要寫一組測試案例
   - ex:像是第三放認證這種相關需求，假如寫個購物網要扣點，但是必定要先驗證身分，因此就會產生一個以上API交互關係，此種情境就很合適
 
+- [[POSTMAN FastKey情境]]
 [Chorme POSTMAN載點](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=zh-TW)
 # Note

@@ -10,11 +10,3 @@ Project:
 Author:
 Note Type:
 Topics:
-
-# Evergreen Note
-Highlight:
-Question:
-Answer:
-# Summary
-
-# Note

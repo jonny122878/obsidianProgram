@@ -6,7 +6,11 @@
 # 共用情境:
 ## 樣版搬移
 ## 跳躍
+- win+r+recent快速將昨日開啟項目給開啟
+- win+x (OS相關設定ex:電腦管理、資安相關截圖防毒軟體、windows update)
 ## 編輯
+
+
 
 ## Desktop
 - ctrl+win+d
@@ -31,7 +35,7 @@
 - alt+v+o+item = filter
 - shift+f10(on directory)(右鍵瀏覽)
 - alt+enter (查看檔案屬性)
-- win+x (OS相關設定ex:電腦管理)
+
 - win+r
   - recent
   - gpedit.msc 本機群組

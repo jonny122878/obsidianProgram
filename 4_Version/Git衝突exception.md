@@ -1,5 +1,27 @@
+---
+data:
+aliases:
+---
+# Metadata
+Status:發芽
+Source Type:
+Source URL:
+Project:金財通、亞證
+Author:
+Note Type:
+Topics:
 
 
+# Highlight:
+1. 開發完成要merge回dev
+2. 遠端dev已經更新，如何將目前拉出來feature分支給rebase
+# Question:
+1. 丟出merge失敗，細查原因之後為基底不相同，feature從本機拉出來dev和雲端dev不一致，此種情況該如何處理
+2. 遠端dev已經更新，如何將目前拉出來feature分支給rebase?
+# Answer:
+1. 先暫停merge很重要因為merge code並沒有經過測試，此時應將雲端dev pull 到本地端dev，後續進行rebase之後，沒問題在merge
+ps:江回答用fetch
+2. 本地dev先pull更新最新，在切換到feature重建基底，注意**目前所在分支**要是feature
 
 ## commit碰到情況
 ### 拉新需求

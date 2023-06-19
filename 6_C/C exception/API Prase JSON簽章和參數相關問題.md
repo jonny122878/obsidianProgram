@@ -20,6 +20,15 @@ Topics:
 ```
 queryClauseScopeList(int? ncProdPolicyClauseId,string? goodsCode)
 ```
+12. 因條件只有二參數有值，因此語法如下
+```
+        let queryId = <CommonQueryModel>{
+            prodPolicyClauseId: this.queryKey.ncProdPolicyClauseId,
+            prodPolicyClauseScopeMId: data.ncProdPolicyScopeID,          
+        };
+```
+13. 將Controller return class copy Angular module.ts一份**一模一樣**類別名和屬性
+14. Angular中調用Contoller API
 # Question:
 1. "queryKey": "The queryKey field is required."
 2. "expDate": "2023-05-23T", error
@@ -32,9 +41,9 @@ queryClauseScopeList(int? ncProdPolicyClauseId,string? goodsCode)
 9. 直接將js內字典語法貼上後response error?
 10. 串接API 在後端return "ExceptionMessage": "找到多個符合下列要求的動作?
 11. 串接API return "Message": "此資源不支援要求實體的媒體類型 'application/javascript'。"?
-  
- 
-
+12. 為何丟出400參數無法綁定
+13. console時發現後端傳入class有值，但調用其屬性就undefined
+14. 檢查Angular中service函數名和參數都為有對應，為何固定return 0
   
 # Answer:
 1. 檢查Controller函數簽名是否為DateTime?
@@ -60,4 +69,6 @@ int?
 ```
 10. 訊息直覺:Controller參數預設型態宣告不能再宣告同樣，ex:[FormBody] class
 11. Controller參數預設型態串接不符，class = json
-
+12. 不能將直覺用C#去類推，其必須每個屬性都需指定值，沒有指定不會**默認指定null**
+13. 因其HTTP方法協定會將**字首轉小寫**，Angular **module**要定義小寫
+14. 遺漏**FromBody**

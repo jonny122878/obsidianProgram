@@ -1,4 +1,46 @@
-[[exception 規範]]
+---
+data:
+aliases:
+---
+# Metadata
+Status:發芽
+Source Type:
+Source URL:
+Project:租貸
+Author:
+Note Type:
+Topics:
+
+
+# Highlight:
+1. 前後端分離專案後端merge到dev
+2. 同上
+3. 同上
+4. 在Controller return Json時，new 自訂義ResponseModel
+# Question:
+1. 其它開發者反應swagger套件運行異常，但是complier並無異常
+2. 同上
+3. **complier**無問題，但跑到特定修改資料庫Controller丟出於 System.AggregateException 擲回例外狀況: 'Microsoft.Extensions.DependencyInjection.dll'
+4. 明明屬性都有指定為何丟出訊息:有建構子一定要調用，不能直接屬性指定
+```
+return new ResponseModel {
+	isOk = ....
+}
+```
+# Answer:
+1. Controller上方修飾標籤協定不能用**default值**，必須補上HttpGet
+2. Controller函數簽名型別取名相同，雖然**不同命名空間**也會造成此異常
+```
+public IActionResult QueryCommiMainList([FromBody] SmCommonQueryModel queryKey)
+```
+3. 因Repo**反射**機制complier不會檢查，經查為注入錯誤
+```
+Controller(IRepository<ProdPolicyClauseScopeD> prodPolicyClauseScopeDRepo) //error
+{
+	this.prodPolicyClauseScopeMRepo = uow.Repository<ProdPolicyClauseScopeM>(); // ok
+}
+```
+4. 直覺式錯誤，解答如訊息
 
 - 疑惑點:當我再產出DataTable之後DataRow(0)並沒有按照條件式指定第一筆邏輯計算結果
 - 情境:用foreach搭配i++(順序計數)將DataTable展開內部為DataRow按照邏輯計算規則產出另個DataTable
