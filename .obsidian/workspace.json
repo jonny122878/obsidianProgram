@@ -4,46 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "dd7bed009cc5b671",
+        "id": "aea46f9b66eb6ac3",
         "type": "tabs",
         "children": [
           {
-            "id": "5520619c6f98a266",
+            "id": "0ba70f53906456fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Development/VS Code IDE.md",
+                "file": "4_SQL/各資料庫特性比較.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a9d8fdb139a5e32c",
+            "id": "8a8205e529a125d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Development/VS Code ShortKey.md",
-                "mode": "source",
+                "file": "Obsidian SQL.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "3c7b5bf2b3dacb8c",
+            "id": "f7a261660778ce3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Development/VS Short Key.md",
+                "file": "4_SQL/LINQ分解需求/SQL Where述句excetion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 207.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -114,7 +115,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
-        "dimension": 60.44117647058823,
+        "dimension": 56.61764705882353,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2_Development/VS Code IDE.md",
+                "file": "Obsidian SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VS",
+                "query": "Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2_Development/VS Code IDE.md",
+                "file": "Obsidian SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_Development/VS Code IDE.md"
+                "file": "Obsidian SQL.md"
               }
             }
           },
@@ -177,50 +178,58 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "4be9ca380fd99f4b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       },
       {
-        "id": "3a3c1b16920c9c0e",
+        "id": "f8c777237bf4fcaa",
         "type": "tabs",
-        "dimension": 39.55882352941176,
+        "dimension": 43.38235294117647,
         "children": [
           {
-            "id": "4161563ece857913",
+            "id": "8ff1be57fe422093",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2_Development/VS Code IDE.md",
+                "file": "Obsidian SQL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
-                  "showTags": true,
+                  "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
-                      "query": "tag:#知識",
+                      "query": "#知識",
                       "color": {
                         "a": 1,
                         "rgb": 14701138
                       }
                     },
                     {
-                      "query": "tag:#資訊",
+                      "query": "#資訊",
                       "color": {
                         "a": 1,
                         "rgb": 14725458
                       }
                     },
                     {
-                      "query": "tag:#資料",
+                      "query": "#資料",
                       "color": {
                         "a": 1,
                         "rgb": 11657298
@@ -237,7 +246,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6346285676930591,
+                  "scale": 0.9999999999999996,
                   "close": true
                 }
               }
@@ -247,7 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 413.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,47 +266,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5520619c6f98a266",
+  "active": "8a8205e529a125d7",
   "lastOpenFiles": [
-    "2_Development/Fast Key概論.md",
-    "2_Development/Chorme.md",
-    "2_Development/VS Short Key.md",
-    "2_Development/VS Code ShortKey.md",
-    "Template/Fast Key情境.md",
-    "2_Development/VS Code IDE.md",
-    "2_Development/VS IDE.md",
-    "7_javascript/Angular環境設定exception.md",
-    "7_javascript/js exception/Angular裝飾器exception.md",
-    "Template/Note.md",
-    "7_javascript/js exception/Angular元件綁定exception.md",
-    "7_javascript/Angular.md",
-    "7_javascript/TypeScript.md",
-    "7_javascript/js exception/TypeScript轉型exception.md",
-    "Template/exception.md",
-    "7_javascript/js exception/Angular不丟exception.md",
-    "7_javascript/js exception/Angular變數生命週期exception.md",
-    "7_javascript/js exception/Angular函數exception.md",
-    "2023-06-18test.md",
-    "8_SQL/PROCEDUCE/暫存表作用域.md",
-    "html/bootstrap exception.md",
-    "html/排版底層原理.md",
-    "html/前台版型迭代.md",
-    "html/版型.md",
-    "html/html情境調整.md",
-    "html/排版exception.md",
-    "Pasted image 20230617173506.png",
+    "4_SQL/SQL exception/SQL條件短路寫法邏輯炸彈.md",
+    "Obsidian SQL.md",
+    "4_SQL/各資料庫特性比較.md",
+    "4_SQL/LINQ分解需求/SQL Where述句excetion.md",
+    "4_SQL/查詢語法/SQL Group述句exception.md",
+    "4_SQL/js集合/js array.md",
+    "4_SQL/SQL exception/LINQ語法exception.md",
+    "4_SQL/SQL exception/SQL字串和日期型別exception.md",
+    "4_SQL/SQL抽象查詢.md",
+    "4_SQL/SQL exception/SQL Order述句exception.md",
+    "4_SQL/查詢語法/combobox來源ORDER BY default疑問.md",
+    "4_SQL/LINQ檔案散落各處路徑ORDER是否存在.md",
+    "4_SQL/SQL抽象結構.md",
+    "4_SQL/SQL exception/SQL數字型別exception.md",
+    "4_SQL/SQL exception/SQL NULL型別exception.md",
+    "4_SQL/SQL exception/SQL和LINQ函數exception.md",
+    "執行緒.md",
+    "Git初始化exception.md",
+    "backup.md",
+    "exception設計準則.md",
+    "Obsidian 的 Metadata，建立一套可持續迭代的筆記系統.md",
+    "Web Client模塊之間關係.md",
+    "Untitled.md",
+    "map_to_DOM_ex.md",
+    "4_SQL/js集合/jQuery array.md",
+    "2_前端/js exception/js array exception.md",
+    "Pasted image 20230628104406.png",
+    "Pasted image 20230627183006.png",
+    "1_Tools/ShortKey",
+    "2_前端/js exception/Pasted image 20230617173506.png",
     "8_SQL/Untitled",
     "5_Deployment",
-    "1_Managerment",
-    "2_Development",
+    "1_Tools/1_Managerment",
+    "1_Tools",
     "Test/C exception/Untitled",
     "C/Core/Untitled",
-    "6_C/指令/資料庫",
-    "8_SQL/PROCEDUCE",
-    "6_C/指令/轉型",
-    "4_Version"
+    "3_後端/指令/資料庫",
+    "4_SQL/PROCEDUCE",
+    "3_後端/指令/轉型"
   ]
 }

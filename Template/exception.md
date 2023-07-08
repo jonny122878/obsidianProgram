@@ -1,19 +1,20 @@
----
-date:
-aliases:
----
-# Metadata
-Status:發芽
-Source Type:
-Source URL:
-Project:租貸
-Author:
-Note Type:
-Topics:
 
 
-# Highlight:
 
-# Question:
+1. #flashcards 
+- Highlight:
+- Question:
+?
+- Answer:
 
-# Answer:
+2. #flashcards 
+- Highlight:
+- Question:
+?
+- Answer:
+
+3. #flashcards 
+- Highlight:
+- Question:
+?
+- Answer:
