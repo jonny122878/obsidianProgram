@@ -10,7 +10,7 @@ Project::金財通
 Author::
 Note Type::
 Topics::
-#資訊 
+#資訊 #核心 
 # Unify
 
 
@@ -23,8 +23,7 @@ Topics::
   - 間距[[SQL數字型別exception]]
   - 倍率
   - 類別
-- [[SQL和LINQ函數exception]]
-- [[SQL NULL型別exception]]]
+- [[SQL NULL型別exception]]
 # PK組成
 - Portfolio Product ProductID ProductGroup
 - Product ProductID ProductGroup

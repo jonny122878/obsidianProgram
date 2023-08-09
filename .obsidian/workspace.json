@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "aea46f9b66eb6ac3",
+        "id": "bbece8bdb52cccd8",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba70f53906456fd",
+            "id": "69685c124c970fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4_SQL/各資料庫特性比較.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a8205e529a125d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian SQL.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7a261660778ce3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4_SQL/LINQ分解需求/SQL Where述句excetion.md",
+                "file": "obsidian SQL/Obsidian work SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 211.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -115,7 +90,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
-        "dimension": 56.61764705882353,
+        "dimension": 48.970588235294116,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -123,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian SQL.md",
+                "file": "obsidian SQL/Obsidian work SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Git",
+                "query": "tag:#資料",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian SQL.md",
+                "file": "obsidian SQL/Obsidian work SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian SQL.md"
+                "file": "obsidian SQL/Obsidian work SQL.md"
               }
             }
           },
@@ -188,12 +163,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "f8c777237bf4fcaa",
         "type": "tabs",
-        "dimension": 43.38235294117647,
+        "dimension": 51.02941176470588,
         "children": [
           {
             "id": "8ff1be57fe422093",
@@ -201,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian SQL.md",
+                "file": "obsidian SQL/Obsidian work SQL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -246,7 +221,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9999999999999996,
+                  "scale": 0.3397480891198551,
                   "close": true
                 }
               }
@@ -256,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,46 +245,46 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8a8205e529a125d7",
+  "active": "69685c124c970fe2",
   "lastOpenFiles": [
-    "4_SQL/SQL exception/SQL條件短路寫法邏輯炸彈.md",
-    "Obsidian SQL.md",
-    "4_SQL/各資料庫特性比較.md",
-    "4_SQL/LINQ分解需求/SQL Where述句excetion.md",
-    "4_SQL/查詢語法/SQL Group述句exception.md",
-    "4_SQL/js集合/js array.md",
-    "4_SQL/SQL exception/LINQ語法exception.md",
-    "4_SQL/SQL exception/SQL字串和日期型別exception.md",
-    "4_SQL/SQL抽象查詢.md",
-    "4_SQL/SQL exception/SQL Order述句exception.md",
-    "4_SQL/查詢語法/combobox來源ORDER BY default疑問.md",
-    "4_SQL/LINQ檔案散落各處路徑ORDER是否存在.md",
-    "4_SQL/SQL抽象結構.md",
-    "4_SQL/SQL exception/SQL數字型別exception.md",
-    "4_SQL/SQL exception/SQL NULL型別exception.md",
-    "4_SQL/SQL exception/SQL和LINQ函數exception.md",
-    "執行緒.md",
-    "Git初始化exception.md",
-    "backup.md",
-    "exception設計準則.md",
-    "Obsidian 的 Metadata，建立一套可持續迭代的筆記系統.md",
-    "Web Client模塊之間關係.md",
-    "Untitled.md",
-    "map_to_DOM_ex.md",
-    "4_SQL/js集合/jQuery array.md",
-    "2_前端/js exception/js array exception.md",
-    "Pasted image 20230628104406.png",
-    "Pasted image 20230627183006.png",
-    "1_Tools/ShortKey",
+    "obsidian SQL/obsidian dart SQL.md",
+    "obsidian SQL/Obsidian work SQL.md",
+    "tasker/Test各類需求.md",
+    "obsidian SQL/Obsidian py SQL.md",
+    "轉型/Git初始化exception.md",
+    "obsidian SQL/obsidian side SQL.md",
+    "轉型/exception設計準則.md",
+    "轉型/無歸類exception.md",
+    "轉型/轉型日期exception.md",
+    "轉型/轉型字串exception.md",
+    "tasker/變數作用域exception.md",
+    "tasker/轉型數字exception.md",
+    "tasker/轉型布林exception.md",
+    "tasker/預設轉型exception.md",
+    "tasker/字串格式exception.md",
+    "tasker/傳統框架重構情境.md",
+    "重構/新格式/Combobox來源DB但無法加入項目.md",
+    "重構/新格式/預存程序移轉資料內WHERE邏輯理解錯誤.md",
+    "重構/新格式/執行緒.md",
+    "重構/新格式/字串切割前置防呆.md",
+    "重構/新格式/人工複製失誤.md",
+    "重構/重構手法/舊有方法不再調用.md",
+    "重構/重構手法/多一個業務邏輯讓同個函式能共同被調用.md",
+    "tasker/http code exception.md",
+    "tasker/不好判別exception.md",
+    "5_Test/情境Test/Web Client(Report).md",
     "2_前端/js exception/Pasted image 20230617173506.png",
+    "tasker",
+    "3_後端/框架exception",
+    "tasker/picture",
+    "obsidian SQL",
+    "1_Tools/IDE",
+    "tasker/picture/Pasted image 20230628104406.png",
+    "tasker/picture/Pasted image 20230627183006.png",
+    "1_Tools/ShortKey",
     "8_SQL/Untitled",
     "5_Deployment",
     "1_Tools/1_Managerment",
-    "1_Tools",
-    "Test/C exception/Untitled",
-    "C/Core/Untitled",
-    "3_後端/指令/資料庫",
-    "4_SQL/PROCEDUCE",
-    "3_後端/指令/轉型"
+    "1_Tools"
   ]
 }

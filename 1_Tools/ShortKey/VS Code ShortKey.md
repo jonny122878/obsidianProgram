@@ -25,13 +25,13 @@ Topics::Tools、ShortKey、review
 ### 搬移樣版後文字上落差
 - ctrl+shift+l 將目前符合檔案單字、或相同型別同時做修改
 - ctrl+d 搜尋符合單字，顆粒度較小搭配enter慢慢配對
-- ctrl+alt+arrow 可同時選取多個列
+- ctrl+alt+arrow 可同時選取多個列，可衍伸應用按End在每行行尾加東西
 - alt+arrow 目前列位搬移
 - ctrl+shift+l 快速將某替換
 - ctrl+enter 下方新增列
 - ctrl+shift+enter 上方新增列
 - shift+alt+arrow 發現屬性相似度極高可透過將此列複製到下列
-- 
+- 大小寫字母替換，快捷鍵內建設定有
 ## 跳躍
 ### 移動順序為單位
 - alt+arrow 移動**順序**為單位
@@ -50,7 +50,7 @@ Topics::Tools、ShortKey、review
 - ctrl+shift+g,g 版控
 
 ## 編輯
-
+- ctrl+shift+r 提煉函數
 
 ## 視野
 - ctrl+k,0、1、2 層次性函式隱藏

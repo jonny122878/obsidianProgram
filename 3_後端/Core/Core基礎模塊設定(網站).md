@@ -1,15 +1,18 @@
 ---
-data
+date
 aliases
 ---
 # Metadata
-Status:發芽
-Source Type:工作
-Source URL:
-Project:
-Author:
-Note Type:
-Topics:
+Status::發芽
+Source Type::工作
+Source URL::
+Project::金財通
+Author::
+Note Type::
+Topics::
+Qty::
+#side 
+# Unify
 
 # Evergreen Note
 Highlight:
@@ -41,8 +44,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 - [[EF效能問題調校]]
 - [[DbSet理解錯誤造成LINQ無法操作]]
 
-## Controller[[
-Core Controller特性]]:
+## Controller
+[[Core Controller特性]]
 #### Web
 - 考慮驗證相關錯誤或成功訊息用ViewBag呈現
 - 初次造訪 return View
@@ -56,7 +59,7 @@ Core Controller特性]]:
 - 驗證成功(因沒有畫面用httpCode替代) ?
 ## View:
 - 將object model轉成Controller所注入強型別
-- 綁定時[[View丟出Object reference not set to an instance of an object]]
+- 綁定時[[View exception]]
 - 集合與元素衝突[[IEumerable轉Table該如何綁定欄位名與值]]
 - [[Model型態綁定到View相關錯誤設定]]
 # Note

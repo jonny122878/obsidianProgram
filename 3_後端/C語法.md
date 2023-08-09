@@ -1,26 +1,49 @@
 ---
-data:
-aliases:
+date
+aliases
 ---
 # Metadata
-Status:發芽
-Source Type:
-Source URL:
-Project:總結
-Author:
-Note Type:
-Topics:
+Status::發芽
+Source Type::工作
+Source URL::
+Project::金財通
+Author::
+Note Type::
+Topics::
+#資料 
+# Unify
+
+# 語言存在環境特性?
+## 環境
+## 調用特別注意bug
+## 未知思路
+
+# 型別機制
+## 轉型衝突
+- [[C轉型exception]]
+- [[C語法exception]]
+- [型態之間比較as,switch](https://blog.xuite.net/hsiung03/blog/63883241#)
+## 特有型別
+- [[DataTable參考型別理解錯誤]]
+
+# 變數、集合、條件、迴圈、函式、事件基礎元素所對應語法?
+## 變數
+## 集合
+## 條件
+## 迴圈
+## 函式
+## 事件
+
+# 原生功能體現環境特性?
+
+
 
 
 ## 語言存在環境特性?
 - 最小單位為class
 ## 語言型別衝突呈現:如何declare?、exception所丟出?
-- [[C轉型exception]]
-- [[C語法exception]]
-### 型別所屬using
-- using System; => DateTime
-- using System.Collections.Generic; => KeyValuePair
-- [型態之間比較as,switch](https://blog.xuite.net/hsiung03/blog/63883241#)
+
+
 ## 變數、條件、迴圈、函式四大基礎所對應語法?
 ## 變數(含結構體)
 - 變數名稱不能有如下符號:-、 
@@ -34,7 +57,7 @@ var dict = new Dictionary<string, string>()
 ```
 - get、set屬性選取器是可以再用private去修飾
 - **byte** array 職責存**圖片、影片**等...
-- [[DataTable參考型別理解錯誤]]
+
 ## 廻圈
 ## 條件
 - [NULL物件調用,型別符號處理](https://www.dotblogs.com.tw/MemoryRecall/2021/07/25/172410)

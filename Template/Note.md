@@ -10,5 +10,6 @@ Project::金財通
 Author::
 Note Type::
 Topics::
+Qty::
 
 # Unify

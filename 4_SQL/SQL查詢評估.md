@@ -54,7 +54,7 @@ Topics:
   - 確認是否除法情境:二個集合中其中一個集合元素和另個集合內所有元素都有關係
   - 主表數量有遺漏狀況:利用CROSS JOIN補足成主檔
   - 確認交集之前表的顆粒度單位整合同單位
-[[SQL關聯exception]]
+[[SQL概念 JOIN述句邏輯exception]]
 [[Zip應用]]
 - ex:主表決定
   - 做交易檔撈取時，觀察損益檔是否帶有庫存
@@ -62,7 +62,7 @@ Topics:
 
 ## 每個集合單位換算
 - where時間切片：ex:每日、或是訂單
-  - LINQ[[SQL Where述句excetion]]
+  - LINQ[[SQL概念Where述句exception 5]]
 - where環境顆粒度：ex:大數據維度部門、交易員
 - sum+group:ex:時間顆粒度提升日到月
 - avg+between
@@ -85,11 +85,11 @@ Topics:
 - IsNull
 - 需要order scale,ROW_NUMBER
 - [[邏輯盲點]]
-[[函數應用]]
+[[SQL函數exception]]
 
 ## 將產出結果給排序
 小心不符合預期值ORDER[[combobox來源ORDER BY default疑問]]
-編碼誤區[[SQL Order述句exception]]
+編碼誤區[[SQL概念Order述句exception]]
 LINQ理解bool誤區[[LINQ檔案散落各處路徑ORDER是否存在]]
 
 若為排序規則為一個以上欄位,可透過如下語法,達到LINQ ThenBy效果

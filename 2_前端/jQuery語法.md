@@ -26,7 +26,7 @@ Topics::
 
 # 型別機制
 ## 轉型衝突
--[[jQuery選取器exception]]
+- [[jQuery選取器exception]]
 ## 特有型別
 
 # 變數、集合、條件、迴圈、函式、事件基礎元素所對應語法?

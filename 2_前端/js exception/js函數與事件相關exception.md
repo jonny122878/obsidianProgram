@@ -16,10 +16,10 @@ Topics::
 
 
 1. #flashcards 
-- Highlight:
-- Question:
+- Highlight:javascript
+- Question:是否能將千分位字串直接轉型parseInt
 ?
-- Answer:
+- Answer:會截斷轉型30,000,000 => 30
 
 2. #flashcards 
 - Highlight:
@@ -56,6 +56,10 @@ Topics::
 - Question:在調用replace時是否能像理解C# replace
 ?
 - Answer:JavaScript的replace()函數默認是**不區分大小寫**的。如果您需要在JavaScript中區分大小寫，可以使用**正則**表達式來實現，其他相關規則也通用
+類似用C# replace全字串取代
+```
+replace(/,/g, '')
+```
 
 1. #flashcards 
 - Highlight:內建日期函數理解錯誤

@@ -131,11 +131,19 @@ from FUN_GET_INS(null)
 - Answer:從數量這個線索可以推估，在AP使用者互動框內含有,或'特殊符號，INSERT INTO子句會變成多個欄位
 
 17. #flashcards 
+- Highlight:MS-SQL
+- Question:PROCEDUCE與FUNCTION如何調用
+?
+- Answer:PROCEDUCE與FUNCTION本質相同,差異再於調用方式FUNCTION可下SQL語句內
+```
+SELECT column FROM Function('paramter')  
+```
+
+18. #flashcards 
 - Highlight:
 - Question:
 ?
 - Answer:
-
 
 
 
