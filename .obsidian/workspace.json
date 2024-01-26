@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "bbece8bdb52cccd8",
+        "id": "32c8d18a13ff1927",
         "type": "tabs",
         "children": [
           {
-            "id": "69685c124c970fe2",
+            "id": "86d38cbe2761cbed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian SQL/Obsidian work SQL.md",
+                "file": "條件式return.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f29132017813c05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasker/轉型SQLexception/SQL date exception.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16f24607040ad2c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasker/集合exception/Dapper Select exception.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 239.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -90,7 +114,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
-        "dimension": 48.970588235294116,
+        "dimension": 57.738095238095234,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian SQL/Obsidian work SQL.md",
+                "file": "條件式return.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#資料",
+                "query": "Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -130,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian SQL/Obsidian work SQL.md",
+                "file": "條件式return.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian SQL/Obsidian work SQL.md"
+                "file": "條件式return.md"
               }
             }
           },
@@ -161,56 +185,45 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "2b8b1b6c5b83487e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "f8c777237bf4fcaa",
+        "id": "f69c124e509e2c41",
         "type": "tabs",
-        "dimension": 51.02941176470588,
+        "dimension": 42.261904761904766,
         "children": [
           {
-            "id": "8ff1be57fe422093",
+            "id": "513c7c3f49e8b846",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "obsidian SQL/Obsidian work SQL.md",
+                "file": "條件式return.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
-                  "colorGroups": [
-                    {
-                      "query": "#知識",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14701138
-                      }
-                    },
-                    {
-                      "query": "#資訊",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14725458
-                      }
-                    },
-                    {
-                      "query": "#資料",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11657298
-                      }
-                    }
-                  ],
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
@@ -221,7 +234,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3397480891198551,
+                  "scale": 0.3628873693012114,
                   "close": true
                 }
               }
@@ -231,7 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,46 +258,47 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "69685c124c970fe2",
+  "active": "3bc2dd2e50ab9ee8",
   "lastOpenFiles": [
-    "obsidian SQL/obsidian dart SQL.md",
-    "obsidian SQL/Obsidian work SQL.md",
-    "tasker/Test各類需求.md",
-    "obsidian SQL/Obsidian py SQL.md",
-    "轉型/Git初始化exception.md",
-    "obsidian SQL/obsidian side SQL.md",
-    "轉型/exception設計準則.md",
-    "轉型/無歸類exception.md",
-    "轉型/轉型日期exception.md",
-    "轉型/轉型字串exception.md",
-    "tasker/變數作用域exception.md",
-    "tasker/轉型數字exception.md",
-    "tasker/轉型布林exception.md",
-    "tasker/預設轉型exception.md",
-    "tasker/字串格式exception.md",
-    "tasker/傳統框架重構情境.md",
-    "重構/新格式/Combobox來源DB但無法加入項目.md",
-    "重構/新格式/預存程序移轉資料內WHERE邏輯理解錯誤.md",
-    "重構/新格式/執行緒.md",
-    "重構/新格式/字串切割前置防呆.md",
-    "重構/新格式/人工複製失誤.md",
-    "重構/重構手法/舊有方法不再調用.md",
-    "重構/重構手法/多一個業務邏輯讓同個函式能共同被調用.md",
-    "tasker/http code exception.md",
-    "tasker/不好判別exception.md",
-    "5_Test/情境Test/Web Client(Report).md",
+    "obsidian SQL/Obsidian resturture SQL.md",
+    "tasker/轉型SQLexception/SQL date exception.md",
+    "tasker/功能exception/網站函數exception.md",
+    "obsidian SQL/框架exception.md",
+    "obsidian SQL/語法exception.md",
+    "obsidian SQL/閱讀本質心得.md",
+    "tasker/轉型SQLexception/SQL string and date exception.md",
+    "tasker/集合exception/EF Select exception.md",
+    "tasker/轉型SQLexception/SQL NULL exception.md",
+    "tasker/集合exception/Dapper Select exception.md",
+    "tasker/轉型exception/字串格式exception.md",
+    "tasker/轉型exception/FormControl轉型exception.md",
+    "4_SQL/SQL exception/LINQ語法exception.md",
+    "tasker/框架exception/Angular元件綁定exception.md",
+    "tasker/集合exception/Enumerable Aggregate exception.md",
+    "tasker/框架exception/Angular Decorator exception.md",
+    "tasker/SQL規範/各資料庫特性比較.md",
+    "tasker/集合exception/Enumerable 本質.md",
+    "tasker/集合exception/xpath exception.md",
+    "tasker/集合exception/Iterator exception.md",
+    "tasker/集合exception/SQL Order exception.md",
+    "tasker/集合exception/Enumerable Order exception.md",
+    "tasker/集合exception/SQL Where exception.md",
+    "tasker/集合exception/Enumerable Where exception.md",
+    "tasker/集合exception/SQL Aggregate exception.md",
+    "tasker/語法exception/restructure/不丟exception.md",
+    "tasker/語法exception/restructure",
+    "tasker/集合exception/restructure",
     "2_前端/js exception/Pasted image 20230617173506.png",
-    "tasker",
-    "3_後端/框架exception",
-    "tasker/picture",
-    "obsidian SQL",
-    "1_Tools/IDE",
+    "tasker/站台exception",
+    "tasker/SQL規範",
+    "tasker/轉型SQLexception",
+    "tasker/Test",
+    "Pasted image 20230830182148.png",
+    "tasker/環境exception",
+    "tasker/集合exception",
+    "tasker/功能exception",
+    "tasker/IDE",
     "tasker/picture/Pasted image 20230628104406.png",
-    "tasker/picture/Pasted image 20230627183006.png",
-    "1_Tools/ShortKey",
-    "8_SQL/Untitled",
-    "5_Deployment",
-    "1_Tools/1_Managerment",
-    "1_Tools"
+    "tasker/picture/Pasted image 20230627183006.png"
   ]
 }

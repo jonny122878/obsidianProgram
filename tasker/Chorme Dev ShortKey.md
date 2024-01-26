@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -11,8 +7,16 @@ Author::
 Note Type::
 Topics::
 Qty::
-#work 
+Review::
+Restructure::
+
+#work #知識 
 # Unify
+
+## 本質
+
+## 衍生衝突
+
 
 ## 樣版搬移
 

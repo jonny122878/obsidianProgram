@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -9,12 +5,19 @@ Source URL::
 Project::金財通
 Author::
 Note Type::
-Topics::Tools、ShortKey、review
+Topics::
+Qty::
+Review::
+Restructure::
 
+#work #知識 
 # Unify
 
+## 本質
 
-#資訊 #work 
+## 衍生衝突
+
+
 
 
 ## 樣版搬移
@@ -33,6 +36,7 @@ Topics::Tools、ShortKey、review
 ### 移動順序為單位
 - ctrl + - 
 - ctrl+shift+ - 
+- ctrl+shfit+backspace (只移動一次上次編輯)
 ### 結構單位
 - alt+F12 事前先瀏覽確認要編輯在跳躍
 - F12 (declare)
@@ -49,7 +53,7 @@ Topics::Tools、ShortKey、review
 - ctrl+k+f ，將單元測試workflow串成資料夾
 - ctrl+b+p ，情境通常為樣本跟修改點(省去跳到**總覽模塊**)，環境先用總覽模塊搬到相同順序
 - ctrl+b+n ，情境通常為樣本跟修改點(省去跳到**總覽模塊**)，環境先用總覽模塊搬到相同順序
-- ctrl+b+c (clear all tag)
+- ctrl+b,ctrl+c (clear all tag)
 - ctrl+k+l (clear all tag 2012)
 - ctrl+g (move point line)
 ### 功能為單位
@@ -57,7 +61,9 @@ Topics::Tools、ShortKey、review
 - ctrl+w+e錯誤區塊
 - shift+esc將當前區塊關閉
 - ctrl+alt+b，break點
-- alt+g+c，Git變更
+- ctrl+0,ctrl+g Git
+- ctrl+alt+w,1 監看式
+- ctrl+e,t 測試總管
 ### break為單位
 - f5 (run)
 - f11 (run step)
@@ -86,3 +92,4 @@ Topics::Tools、ShortKey、review
 
 ## 視野
 - ctrl+k,d 排版
+- 右側捲軸可呈現目前錯誤、或即將取代情況

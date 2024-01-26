@@ -20,7 +20,7 @@ Question:
 Answer:
 # Summary
 ## Startup:
-- [[模塊相依性與遺漏設定造成錯誤]]
+- [[C Startup(Program) exception]]
 
 ## Model:
 ### 表格操作設定
@@ -42,7 +42,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 ```
 - [[EF效能問題調校]]
-- [[DbSet理解錯誤造成LINQ無法操作]]
+- [[C Model設定exception]]
 
 ## Controller
 [[Core Controller特性]]

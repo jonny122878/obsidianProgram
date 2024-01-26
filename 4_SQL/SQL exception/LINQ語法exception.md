@@ -43,18 +43,6 @@ on new { inner.Key, inner.Value } equals new { outer.Key, outer.Value }
 ?
 - Answer:檢查後面是否有ToList之類實體化,因LINQ有**延遲效果**
 
-5. #flashcards 
-- Highlight:在調用自訂義RowCommand時其為一組string[]，將其
-```
-arr.Select(r => r[0])
-```
-- Question:產出結果很奇怪都為**數字**
-?
-- Answer:因為當在做單一string時會自動理解成
-```
-IEnumerable<char>
-```
-因此產出原本產出數字結果為字元
 
 6. #flashcards 
 - Highlight:

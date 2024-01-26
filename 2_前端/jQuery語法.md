@@ -98,12 +98,7 @@ ex:臨界值
   - javascript event attribute傳統只能element設定
 - 如何類似Form_Load掛載?
   - 不一定需要放在大的$(function(){});也可進行掛載
-- when then用法?
-  - 將其想成為C#實現非同步功能，只是其應用在ajax上，then內有針對成功與失敗回傳結果
-  ```
-  $.when($('#frmQuery').cacheForm()).then(function () {
-  })
-  ```
+
 
 ###### ajax載入時表單
 ```

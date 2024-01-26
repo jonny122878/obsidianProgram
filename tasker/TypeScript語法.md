@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -10,14 +6,19 @@ Project::金財通
 Author::
 Note Type::
 Topics::
-#知識 #work #py 
+Qty::
+Review::
+
+#知識   #work #py 
 # Unify
 - 物件概念都與C#雷同，深拷貝可擅用語法糖或JSON函數
 - 物件實體化時小心C#null直覺概念
 - 集合和lambda型別都用**右側符號**表達
 - 集合用右側符號區分
 - 型別註記使用時機當型別推論會出現**any型別**
-
+- never表示函數return 可能會無窮導致中斷情況
+- 允許any存在時機，I/O或JSON.prase() return這種有無限多種情況
+- unknown優化any，讓其被第一次any指定後不能再被指定
 # 語言存在環境特性?
 ## 環境
 - 解決js弱型別特有Type Annotation(型別推論機制)
@@ -32,7 +33,7 @@ Topics::
 ## 轉型衝突
 - 型別推論:右側值去決定變數型別
 - 型別註記:變數不指定初始值直接宣告變數型別
-- [[變數作用域exception]]
+- [[變數和物件exception]]
 ## 特有型別
 - null、undefined並無透過強型別統一弄成只有null
 ```

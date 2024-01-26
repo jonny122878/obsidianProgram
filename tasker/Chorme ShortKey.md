@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作

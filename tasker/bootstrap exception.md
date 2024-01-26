@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -9,12 +5,16 @@ Source URL::
 Project::金財通
 Author::
 Note Type::
-Topics::前端
-#資訊 #work 
+Topics::
+Qty::8
+Review::
+
+#work #dart  #知識 
 # Unify
-
-
-
+- form-control、control-label本身都會自帶padding、magrin
+- control-label會靠左
+- form-control 會讓原本input區塊式換行
+- table 本身可以RWD，不用透過div切版
 
 1. #flashcards 
 - Highlight:要將row列內標題和UI元件要放在同列
@@ -91,6 +91,27 @@ Topics::前端
 - Answer:直覺理解錯誤，html上方頁籤應是li
 
 8. #flashcards 
+- Highlight:
+- Question:table能否做到隱藏欄效果
+?
+- Answer:將table放置在特定div class內即可
+```
+<div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-6 col-sm-12 d-none d-sm-block">名稱</th>
+          <th class="col-md-6 col-sm-12">MAC</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td class="col-md-6 col-sm-12 d-none d-sm-block"></td>
+          <td class="col-md-6 col-sm-12"></td>
+        </tr>
+```
+
+9. #flashcards 
 - Highlight:
 - Question:
 ?

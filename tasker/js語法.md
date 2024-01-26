@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -10,7 +6,11 @@ Project::金財通
 Author::
 Note Type::
 Topics::
-#知識 #work 
+Qty::
+Review::
+
+
+#知識   #work 
 
 # Unify
 - 簡化DOM操作用jQuery，弱型別Debug用TypeScript
@@ -58,7 +58,7 @@ function first 表示語言最小單位為**function**,(未知語法調用時參
   let lists = ["A","B","C"];
   ```
   - 若無存在索引元素回傳undefined
-  [[SQL Select述句exception]]
+  [[SQL Select exception]]
 
 ## 條件
 ## 迴圈
@@ -85,7 +85,7 @@ function first 表示語言最小單位為**function**,(未知語法調用時參
       alert('twice click Content');
     });
      ```
-     語法理解錯誤常見誤區[[js函數與事件相關exception]]
+     語法理解錯誤常見誤區[[事件exception]]
 
 |event|功能|
 |:--|:--|

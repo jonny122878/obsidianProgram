@@ -62,7 +62,7 @@ Topics:
 
 ## 每個集合單位換算
 - where時間切片：ex:每日、或是訂單
-  - LINQ[[SQL概念Where述句exception 5]]
+  - LINQ[[SQL Where exception]]
 - where環境顆粒度：ex:大數據維度部門、交易員
 - sum+group:ex:時間顆粒度提升日到月
 - avg+between
@@ -89,7 +89,7 @@ Topics:
 
 ## 將產出結果給排序
 小心不符合預期值ORDER[[combobox來源ORDER BY default疑問]]
-編碼誤區[[SQL概念Order述句exception]]
+編碼誤區[[SQL Order exception]]
 LINQ理解bool誤區[[LINQ檔案散落各處路徑ORDER是否存在]]
 
 若為排序規則為一個以上欄位,可透過如下語法,達到LINQ ThenBy效果

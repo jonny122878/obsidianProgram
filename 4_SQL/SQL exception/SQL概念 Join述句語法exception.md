@@ -1,7 +1,3 @@
----
-date
-aliases
----
 # Metadata
 Status::發芽
 Source Type::工作
@@ -10,11 +6,27 @@ Project::金財通
 Author::
 Note Type::
 Topics::
-#資料 
+Qty::3
+Review::
+
+#work #知識 
 # Unify
 
+1. #flashcards 
+- Highlight:
+- Question:
+?
+- Answer:
+
+2. #flashcards 
+- Highlight:
+- Question:
+?
+- Answer:
 
 
+
+# Exception
 
 1. #flashcards 
 - Highlight:LINQ
@@ -23,6 +35,7 @@ Topics::
 - Answer:
   - DataTable AsEnumerable表達和陳述式都不能用複合key
   - ex:on new { inner.Key, inner.Value } equals new { outer.Key, outer.Value }
+
 2. #flashcards 
 - Highlight:LINQ
 - Question:陳述式left join中into含意?
@@ -30,10 +43,19 @@ Topics::
 - Answer:into為二張表交集所產出結果集合， 因此**多張表**就要有**多個into** 
 
 3. #flashcards 
+- Highlight:LINQ EF
+- Question:為何需要用到Include用意在於
+?
+- Answer:二張資料表之間可透過建立ICollection屬性去做連結撈取，進而先將二張實體表載入，提升撈取效能
+
+
+4. #flashcards 
 - Highlight:
 - Question:
 ?
 - Answer:
+
+
 
 
 ## 關聯

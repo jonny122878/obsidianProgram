@@ -10,7 +10,7 @@ Project::金財通
 Author::
 Note Type::
 Topics::
-#py 
+#py #資訊 
 # Unify
 
 # 語言存在環境特性?

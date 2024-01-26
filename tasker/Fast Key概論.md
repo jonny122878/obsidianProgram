@@ -1,6 +1,13 @@
 ---
-date
-aliases
+"2": t
+"3": e
+"5": a
+"6": l
+"7": i
+"8": a
+"9": s
+"10": e
+"11": s
 ---
 # Metadata
 Status::發芽
@@ -9,11 +16,15 @@ Source URL::
 Project::金財通
 Author::
 Note Type::
-Topics::ShortKey
-
+Topics::
+Qty::
+Review::
+#知識   #work 
 # Unify
+- break表示當次需求偵查，要搭配tag
 
-#知識 #work 
+
+
 
 
 #### 未知功能先往那個方向找?
@@ -61,7 +72,7 @@ Topics::ShortKey
 - [[VS Code ShortKey]]
 - [[VS ShortKey]]
 - [[OS exception]]
-- [[Excel]]
+- [[Excel ShortKey]]
 - [[Git衝突合併exception]]
 - [[SSMS IDE]]
 - [[VS IDE]]

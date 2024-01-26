@@ -1,20 +1,21 @@
----
-date
-aliases
----
 # Metadata
-Status:發芽
-Source Type:金財通
-Source URL:
-Project:
-Author:
-Note Type:
-Topics::前端、框架、前端框架、review
-#資訊 #work 
+Status::發芽
+Source Type::工作
+Source URL::
+Project::金財通
+Author::
+Note Type::
+Topics::
+Qty::
+Review::
+Restructure::
 
+#work #知識 
+# Unify
 
-- 將檔案綁和SRP裝飾器應用結合，並且如何injection寫入
-- NgModule 補齊
+## 本質
+
+## 衍生衝突
 
 
 # Unify
@@ -26,14 +27,16 @@ Topics::前端、框架、前端框架、review
 # 模塊間綁定方式溝通
 ## 檔案綁定
 - [[Angular元件綁定exception]]
-- [[Angular不丟exception]]
-- [[Angular變數生命週期exception]]
+- [[不丟exception]]
+- [[Angular模塊生命週期exception]]
 - [[Angular攔截器exception]]
-- View => html、css
-- ViewModel => component.ts
+- Model => module.ts (最優先)
+- View => html、css (圍繞model填入屬性、調用component function候補)
+- ViewModel => component.ts (使用者會調用function)
+
 - Register component => module.ts
 - API => service.ts
-- Model => module.ts
+
 ## 模塊綁定
 - 插值綁定(component => html): ex:table呈現 
 - 屬性綁定: ex:編輯狀態表單填值 
@@ -46,7 +49,7 @@ Topics::前端、框架、前端框架、review
 (click)="save()"
 ```
 ## 階層綁定
-- [[Angular裝飾器exception]]
+- [[Angular Decorator exception]]
 - Output 子 =>父。ex:首頁上方查詢表單按鈕事件
 - Input 父 => 子。ex:下拉選單來源散落在多個新增頁籤頁面
 ## 階層綁定範例情境解說

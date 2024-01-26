@@ -24,14 +24,14 @@ Topics::
 # 函式三板斧對應查詢指令
 - Map:Select對應，Group集合衍性 
   - [[SQL Group述句exception]]
-  - [[SQL Select述句exception]]
+  - [[SQL Select exception]]
 - Filter:Where對應，Having集合衍性
   - Where單一元素：名目、順序
   - Where集合：類別
-  - [[SQL概念Where述句exception 5]]
+  - [[SQL Where exception]]
 - Reduce
-  - [[SQL概念Aggregate函數exception]]
+  - [[SQL Aggregate exception]]
 - [[SQL概念 JOIN述句邏輯exception]]
 - [[SQL概念 Join述句語法exception]]
-- [[SQL概念Order述句exception]]
+- [[SQL Order exception]]
 
