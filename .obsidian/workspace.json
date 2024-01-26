@@ -4,46 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "32c8d18a13ff1927",
+        "id": "fa155368f36825ff",
         "type": "tabs",
         "children": [
           {
-            "id": "86d38cbe2761cbed",
+            "id": "93fb53036e3d86c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "條件式return.md",
+                "file": "obsidian SQL/ob 型別 exception.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4f29132017813c05",
+            "id": "4cadc16c6ba015a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasker/轉型SQLexception/SQL date exception.md",
+                "file": "exception/型別exception/轉型exception/字串格式exception.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "16f24607040ad2c4",
+            "id": "c7f22e5697a0c317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasker/集合exception/Dapper Select exception.md",
+                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,7 @@
       {
         "id": "28975d2d4af47ba6",
         "type": "tabs",
-        "dimension": 57.738095238095234,
+        "dimension": 40.773809523809526,
         "children": [
           {
             "id": "eb4a50e9b5b66aca",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "條件式return.md",
+                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "條件式return.md",
+                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "條件式return.md"
+                "file": "exception/型別exception/轉型exception/預設轉型exception.md"
               }
             }
           },
@@ -203,7 +204,7 @@
       {
         "id": "f69c124e509e2c41",
         "type": "tabs",
-        "dimension": 42.261904761904766,
+        "dimension": 59.226190476190474,
         "children": [
           {
             "id": "513c7c3f49e8b846",
@@ -211,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "條件式return.md",
+                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -244,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,47 +259,47 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3bc2dd2e50ab9ee8",
+  "active": "c7f22e5697a0c317",
   "lastOpenFiles": [
-    "obsidian SQL/Obsidian resturture SQL.md",
-    "tasker/轉型SQLexception/SQL date exception.md",
-    "tasker/功能exception/網站函數exception.md",
-    "obsidian SQL/框架exception.md",
+    "exception/型別exception/轉型SQLexception/SQL number exception.md",
+    "exception/型別exception/轉型SQLexception/SQL NULL exception.md",
+    "exception/型別exception/轉型SQLexception/SQL date exception.md",
+    "exception/型別exception/轉型exception/convert num exception.md",
+    "exception/型別exception/轉型exception/預設轉型exception.md",
+    "exception/型別exception/轉型exception/字串格式exception.md",
+    "exception/型別exception/轉型exception/FormControl轉型exception.md",
+    "exception/型別exception/轉型exception/convert bool exception.md",
+    "exception/型別exception/轉型exception/convert date exception.md",
+    "exception/型別exception/轉型SQLexception/SQL string exception.md",
+    "exception/集合exception/ORM exception/EF Select exception.md",
+    "obsidian SQL/ob 型別 exception.md",
+    "obsidian SQL/ob 集合 exception.md",
+    "exception/集合exception/數列動作 Unify.md",
+    "exception/集合exception/Enumerable 無歸類 Unify.md",
     "obsidian SQL/語法exception.md",
-    "obsidian SQL/閱讀本質心得.md",
-    "tasker/轉型SQLexception/SQL string and date exception.md",
-    "tasker/集合exception/EF Select exception.md",
-    "tasker/轉型SQLexception/SQL NULL exception.md",
-    "tasker/集合exception/Dapper Select exception.md",
-    "tasker/轉型exception/字串格式exception.md",
-    "tasker/轉型exception/FormControl轉型exception.md",
-    "4_SQL/SQL exception/LINQ語法exception.md",
-    "tasker/框架exception/Angular元件綁定exception.md",
-    "tasker/集合exception/Enumerable Aggregate exception.md",
-    "tasker/框架exception/Angular Decorator exception.md",
-    "tasker/SQL規範/各資料庫特性比較.md",
-    "tasker/集合exception/Enumerable 本質.md",
-    "tasker/集合exception/xpath exception.md",
-    "tasker/集合exception/Iterator exception.md",
-    "tasker/集合exception/SQL Order exception.md",
-    "tasker/集合exception/Enumerable Order exception.md",
-    "tasker/集合exception/SQL Where exception.md",
-    "tasker/集合exception/Enumerable Where exception.md",
-    "tasker/集合exception/SQL Aggregate exception.md",
-    "tasker/語法exception/restructure/不丟exception.md",
-    "tasker/語法exception/restructure",
-    "tasker/集合exception/restructure",
-    "2_前端/js exception/Pasted image 20230617173506.png",
-    "tasker/站台exception",
-    "tasker/SQL規範",
-    "tasker/轉型SQLexception",
-    "tasker/Test",
-    "Pasted image 20230830182148.png",
-    "tasker/環境exception",
-    "tasker/集合exception",
-    "tasker/功能exception",
-    "tasker/IDE",
-    "tasker/picture/Pasted image 20230628104406.png",
-    "tasker/picture/Pasted image 20230627183006.png"
+    "exception/集合exception/ORM Unify.md",
+    "exception/型別exception",
+    "exception/集合exception/SQL exception/SQL Where exception.md",
+    "exception/集合exception/SQL exception/SQL Order exception.md",
+    "exception/集合exception/SQL exception/SQL Aggregate exception.md",
+    "exception/集合exception/not table struct exception/xpath exception.md",
+    "obsidian SQL/ob resturture exception SQL.md",
+    "obsidian SQL/框架exception.md",
+    "obsidian SQL/Obsidian review SQL.md",
+    "exception/集合exception/not table struct exception/Iterator exception.md",
+    "exception/集合exception/not table struct exception/Regular exception.md",
+    "exception/集合exception/not table struct exception",
+    "exception/集合exception/SQL exception",
+    "exception/集合exception/Enumerable exception",
+    "exception/集合exception/ORM exception",
+    "exception",
+    "old",
+    "old/tasker/語法exception/restructure",
+    "exception/集合exception/restructure",
+    "old/2_前端/js exception/Pasted image 20230617173506.png",
+    "old/tasker/站台exception",
+    "old/Pasted image 20230830182148.png",
+    "old/tasker/picture/Pasted image 20230628104406.png",
+    "old/tasker/picture/Pasted image 20230627183006.png"
   ]
 }

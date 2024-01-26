@@ -1,11 +1,7 @@
 # Metadata
 Qty::
 Review::
-Restructure::relation、unify
+Restructure::relation
 
 ### Think
-# Unify
 
-## 本質
-
-## 衍生衝突
