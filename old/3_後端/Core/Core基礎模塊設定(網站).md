@@ -20,7 +20,7 @@ Question:
 Answer:
 # Summary
 ## Startup:
-- [[C Startup(Program) exception]]
+- [[C Startup exception]]
 
 ## Model:
 ### 表格操作設定
@@ -41,8 +41,8 @@ using System.ComponentModel;//default
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 ```
-- [[EF效能問題調校]]
-- [[C Model設定exception]]
+- [[EF Speed exception]]
+- [[C Model exception]]
 
 ## Controller
 [[Core Controller特性]]

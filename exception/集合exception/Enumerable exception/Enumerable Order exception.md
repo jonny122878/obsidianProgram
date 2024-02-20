@@ -56,7 +56,6 @@ let sortBaseRateFeeQueryResultModels = baseRateFeeQueryResultModels.sort((a,b) =
             });
 ```
 
-
 5. #flashcards 
 - Highlight:
 - Question:

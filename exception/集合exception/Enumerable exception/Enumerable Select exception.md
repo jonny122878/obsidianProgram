@@ -1,7 +1,7 @@
 # Metadata
-Qty::7
+Qty::4
 Review::
-Restructure::
+Restructure::relation 2、3
 
 ### Think
 
@@ -12,24 +12,6 @@ Restructure::
 
 
 1. #flashcards 
-- Highlight:C#
-- Question:?.First  
-?
-- Answer:Sequence contains no elements
-
-2. #flashcards 
-- Highlight:C#
-- Question:FirstOrDefault 是否會有延遲特性
-?
-- Answer:單一元素不會延遲
-
-3. #flashcards 
-- Highlight:javascript
-- Question:如何將IEnumerable轉成array
-?
-- Answer:ToArray: Array.prototype.slice.call(**IEnumerable**) 
-
-4. #flashcards 
 - Highlight:javascript
 - Question:直覺用Select(r => r.Value)取不到整個集合?
 ```
@@ -41,7 +23,7 @@ IEnumerable<KeyValuePair<int, List<BookLendRecord>>>
 ?
 - Answer:直覺錯誤map預設回傳**集合**，所以是包在集合中元素內
 
-5. #flashcards 
+2. #flashcards 
 - Highlight:jQuery
 - Question:在做展開時能否透過LINQ思維調用
 ?
@@ -49,7 +31,7 @@ IEnumerable<KeyValuePair<int, List<BookLendRecord>>>
 - jQuery類LINQ本身就帶有**防Null**
 - jQuery類LINQ default extension **ToArray**
 
-6. #flashcards 
+3. #flashcards 
 - Highlight:python
 - Question:'map' object is not subscriptable array 
 ?
@@ -58,7 +40,7 @@ IEnumerable<KeyValuePair<int, List<BookLendRecord>>>
 result[0]
 ```
 
-7. #flashcards 
+4. #flashcards 
 - Highlight:LINQ,在調用自訂義RowCommand時其為一組string[]，將其
 ```
 arr.Select(r => r[0])

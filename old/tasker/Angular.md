@@ -26,10 +26,10 @@ Restructure::
 
 # 模塊間綁定方式溝通
 ## 檔案綁定
-- [[Angular元件綁定exception]]
+- [[Ag FormControl exception]]
 - [[不丟exception]]
-- [[Angular模塊生命週期exception]]
-- [[Angular攔截器exception]]
+- [[A event order exception]]
+- [[A Valid exception]]
 - Model => module.ts (最優先)
 - View => html、css (圍繞model填入屬性、調用component function候補)
 - ViewModel => component.ts (使用者會調用function)
@@ -49,7 +49,7 @@ Restructure::
 (click)="save()"
 ```
 ## 階層綁定
-- [[Angular Decorator exception]]
+- [[A ViewChild exception]]
 - Output 子 =>父。ex:首頁上方查詢表單按鈕事件
 - Input 父 => 子。ex:下拉選單來源散落在多個新增頁籤頁面
 ## 階層綁定範例情境解說

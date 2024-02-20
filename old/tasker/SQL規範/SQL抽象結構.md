@@ -21,11 +21,11 @@ Topics::
 - 每個結構按照特性分為元素和集合，若是集合則帶有集合內**元素間分佈度量**
 - 存取尺度:
   - 順序
-  - 名目[[SQL string exception]]    
-  - 間距[[SQL number exception]]
+  - 名目[[string format SQL exception]]    
+  - 間距[[cvt num SQL exception]]
   - 倍率
   - 類別
-- [[SQL NULL exception]]
+- [[null SQL exception]]
 # PK組成
 - Portfolio Product ProductID ProductGroup
 - Product ProductID ProductGroup

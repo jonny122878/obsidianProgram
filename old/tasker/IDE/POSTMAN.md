@@ -31,7 +31,7 @@ ActionName ([FromBody] long sysSettingId)
 10
 ```
 ps:第一行結果為直覺上錯誤，其非JSON並無KEY，直接傳數字即可
-- 後端接收reponse參數參考[[Core Controller特性]]和[[Api 應用Controller exception]]
+- 後端接收reponse參數參考[[Core Controller特性]]和[[C Api exception]]
 POSTMAN在發送時相關錯誤資訊參考如下:
 - [[http code exception]]
 - [[API JSON 400 415 exception]]

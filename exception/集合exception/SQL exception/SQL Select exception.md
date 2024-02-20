@@ -1,14 +1,11 @@
 # Metadata
-Qty::6
+Qty::5
 Review::
-Resturcture::relation、summary
+Restructure::
 
-#知識     #work 
-# Unify
-- 集合再數列運算通常都會產生集合體之類概念，後續再轉成實際資料結構
-- 集合在弱型別用符號表示
-- 弱語言和Dapper投射預設為空情況
-- C# string語法糖
+### Think
+
+
 
 
 # Exception
@@ -39,14 +36,6 @@ Resturcture::relation、summary
 - Answer:放在外層是已經產生JOIN結果在WHERE過濾,二者看起來相同,但實際執行會有數量不同情況
 
 5. #flashcards 
-- Highlight:MS-SQL
-- Question:UNION產出資料不如預期?
-?
-- Answer:
-  - 檢查再做接合時SELECT FROM後面不要有其他關鍵字
-  - 檢查接合表格是否有重複資料
-
-6. #flashcards 
 - Highlight:Oracle
 - Question:'ORA-00933: SQL 命令的結束有問題' 
 ```

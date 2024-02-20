@@ -4,47 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "fa155368f36825ff",
+        "id": "fc5b4801048438fc",
         "type": "tabs",
         "children": [
           {
-            "id": "93fb53036e3d86c4",
+            "id": "aa820d370f263d84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian SQL/ob 型別 exception.md",
+                "file": "exception/排版exception/排版 Unify.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "4cadc16c6ba015a0",
+            "id": "5ebf3438e13b5993",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exception/型別exception/轉型exception/字串格式exception.md",
+                "file": "exception/框架exception/A Form Unify.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7f22e5697a0c317",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 257.5
   },
   "right": {
     "id": "ba41273c4719a45a",
@@ -117,23 +107,6 @@
         "type": "tabs",
         "dimension": 40.773809523809526,
         "children": [
-          {
-            "id": "eb4a50e9b5b66aca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "708101c348df4317",
             "type": "leaf",
@@ -155,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
+                "file": "exception/框架exception/A Form Unify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,16 +140,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exception/型別exception/轉型exception/預設轉型exception.md"
+                "file": "exception/框架exception/A Form Unify.md"
               }
-            }
-          },
-          {
-            "id": "8b17345072968e91",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -198,8 +163,34 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "74c3b6205b0ecb04",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "91adcf26d29efc64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "exception/框架exception/A Form Unify.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "f69c124e509e2c41",
@@ -212,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "exception/型別exception/轉型exception/預設轉型exception.md",
+                "file": "exception/框架exception/A Form Unify.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -235,7 +226,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3628873693012114,
+                  "scale": 0.23029869141353002,
                   "close": true
                 }
               }
@@ -245,7 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,45 +250,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c7f22e5697a0c317",
+  "active": "5ebf3438e13b5993",
   "lastOpenFiles": [
-    "exception/型別exception/轉型SQLexception/SQL number exception.md",
-    "exception/型別exception/轉型SQLexception/SQL NULL exception.md",
-    "exception/型別exception/轉型SQLexception/SQL date exception.md",
-    "exception/型別exception/轉型exception/convert num exception.md",
-    "exception/型別exception/轉型exception/預設轉型exception.md",
-    "exception/型別exception/轉型exception/字串格式exception.md",
-    "exception/型別exception/轉型exception/FormControl轉型exception.md",
-    "exception/型別exception/轉型exception/convert bool exception.md",
-    "exception/型別exception/轉型exception/convert date exception.md",
-    "exception/型別exception/轉型SQLexception/SQL string exception.md",
-    "exception/集合exception/ORM exception/EF Select exception.md",
-    "obsidian SQL/ob 型別 exception.md",
-    "obsidian SQL/ob 集合 exception.md",
-    "exception/集合exception/數列動作 Unify.md",
-    "exception/集合exception/Enumerable 無歸類 Unify.md",
-    "obsidian SQL/語法exception.md",
+    "exception/排版exception/排版 Unify.md",
+    "exception/排版exception/html form exception.md",
+    "exception/框架exception/A Form Unify.md",
+    "exception/排版exception/bootstrap container exception.md",
+    "exception/排版exception/bootstrap form exception.md",
+    "exception/排版exception/bootstrap info exception.md",
+    "exception/排版exception/html container exception.md",
+    "exception/排版exception/html info exception.md",
+    "exception/邏輯 Unify.md",
+    "exception/排版exception/Ag html exception.md",
+    "obsidian SQL/ob 排版 exception.md",
+    "exception/語法exception/if and or exception.md",
+    "exception/集合exception/SQL exception/SQL Select exception.md",
+    "obsidian SQL/ob 集合 exception 91.md",
+    "exception/排版exception",
     "exception/集合exception/ORM Unify.md",
-    "exception/型別exception",
-    "exception/集合exception/SQL exception/SQL Where exception.md",
-    "exception/集合exception/SQL exception/SQL Order exception.md",
-    "exception/集合exception/SQL exception/SQL Aggregate exception.md",
-    "exception/集合exception/not table struct exception/xpath exception.md",
-    "obsidian SQL/ob resturture exception SQL.md",
-    "obsidian SQL/框架exception.md",
-    "obsidian SQL/Obsidian review SQL.md",
-    "exception/集合exception/not table struct exception/Iterator exception.md",
-    "exception/集合exception/not table struct exception/Regular exception.md",
-    "exception/集合exception/not table struct exception",
-    "exception/集合exception/SQL exception",
-    "exception/集合exception/Enumerable exception",
-    "exception/集合exception/ORM exception",
-    "exception",
-    "old",
-    "old/tasker/語法exception/restructure",
-    "exception/集合exception/restructure",
+    "old/2_前端/前端語言框架發展史.md",
+    "exception/ShortKey exception/ShortKey/跳躍 short key.md",
+    "exception/型別exception/型別函數 Unify.md",
+    "exception/集合exception/SQL效能 Unify.md",
+    "exception/集合exception/Group應用.md",
+    "exception/集合exception/db struct exception/struct exception.md",
+    "exception/集合exception/Enumerable 動作 Unify.md",
+    "exception/集合exception/SQL exception/SQL Join exception.md",
+    "exception/集合exception/SQL概念 JOIN述句邏輯exception.md",
+    "exception/集合exception/SQL exception/SQL Union exception.md",
+    "exception/集合exception/Zip應用.md",
+    "exception/集合exception/db struct exception",
+    "exception/型別exception/型別 Apply",
+    "exception/ShortKey exception/ShortKey",
+    "exception/ShortKey exception/情境",
+    "exception/Tool exception",
+    "Untitled",
+    "exception/ShortKey exception",
+    "exception/型別exception/restructure",
+    "exception/框架exception/Env exception",
     "old/2_前端/js exception/Pasted image 20230617173506.png",
-    "old/tasker/站台exception",
     "old/Pasted image 20230830182148.png",
     "old/tasker/picture/Pasted image 20230628104406.png",
     "old/tasker/picture/Pasted image 20230627183006.png"

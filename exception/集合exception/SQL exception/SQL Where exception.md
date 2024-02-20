@@ -1,12 +1,10 @@
 # Metadata
-Qty::4
+Qty::3
 Review::
 Restructure::
 
 ### Think
-- 日期和數字要特別小心精度比較理解和直覺不同
-- MS-SQL 條件式短路邏輯與一般程式語言理解不同
-- 弱型別要特別小心無定義清楚物件屬性、return值
+
 
 
 # Exception
@@ -27,18 +25,7 @@ ex:
 100 => LEN() >  => 10 => substring => 5
 按照如上原理，因無過濾因此還是丟exception
 
-
 2. #flashcards 
-- Highlight:Oracle
-- Question:SELECT TOP 1
-?
-- Answer:
-```
-SELECT BRANCHCODE,Flag FROM COMMON_ORGANIZATION FETCH FIRST 1 ROWS ONLY
-```
-
-
-3. #flashcards 
 - Highlight:MS-SQL
 - Question:Where條件式整數與小數做比較return?
 ?
@@ -46,7 +33,7 @@ SELECT BRANCHCODE,Flag FROM COMMON_ORGANIZATION FETCH FIRST 1 ROWS ONLY
   - ex 65.42 < 65 exception
   - 65.42 < 65.00
 
-4. #flashcards 
+3. #flashcards 
 - Highlight:在Oracle中，主表JOIN副表取得相關資訊，並用WHERE條件
 - Question:Invalid parameter binding Arg_ParamName_Name
 ?

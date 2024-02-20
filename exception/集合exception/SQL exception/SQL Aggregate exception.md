@@ -7,13 +7,7 @@ Restructure::
 
 
 
-- 基本上集合為空在任一種語言都會呈現錯誤
-- aggregate function原生只有聚合效果，但有的會封裝映射動作和常用聚合效果
-- typescript、javascript弱型別概念，因此為原生
-- LINQ、MS-SQL為有封裝過後
 
-- MS-SQL **function**本身不丟exception,可以想像成是弱型別,異常丟出NULL
-- typescript、MS-SQL對NULL認定在於是否默認0
 
 
 # Exception

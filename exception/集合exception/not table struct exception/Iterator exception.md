@@ -1,19 +1,12 @@
 # Metadata
-Qty::4
+Qty::5
 Review::
-Restructure::relation
+Restructure::relation 1~5
 
 ### Think
-- 2和模塊有關
-- 4和作用域有關
-# Unify
 
-## 本質
 
-## 衍生衝突
 
-- 調用時參數和集合理解錯誤
-- 模塊展開ngFor同樣迴圈是覆寫
 
 
 # Exception
@@ -46,8 +39,8 @@ Restructure::relation
 - Answer:因為受到javascript函數閉包,解法將暫存變數作用域拉到外部
 
 5. #flashcards 
-- Highlight:
-- Question:
+- Highlight:python
+- Question:range(1,10)是否遍歷1到10
 ?
-- Answer:
+- Answer:臨界值只遍歷到9
 

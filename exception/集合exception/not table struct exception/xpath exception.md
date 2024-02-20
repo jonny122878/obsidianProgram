@@ -1,7 +1,7 @@
 # Metadata
 Qty::3
 Review::
-Restructure::relation
+Restructure::relation 1~3
 
 ### Think
 

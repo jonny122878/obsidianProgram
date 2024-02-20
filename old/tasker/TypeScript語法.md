@@ -33,7 +33,7 @@ Review::
 ## 轉型衝突
 - 型別推論:右側值去決定變數型別
 - 型別註記:變數不指定初始值直接宣告變數型別
-- [[變數和物件exception]]
+- [[variant exception]]
 ## 特有型別
 - null、undefined並無透過強型別統一弄成只有null
 ```

@@ -85,7 +85,7 @@ function first 表示語言最小單位為**function**,(未知語法調用時參
       alert('twice click Content');
     });
      ```
-     語法理解錯誤常見誤區[[事件exception]]
+     語法理解錯誤常見誤區[[event exception]]
 
 |event|功能|
 |:--|:--|

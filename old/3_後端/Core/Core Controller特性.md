@@ -26,7 +26,7 @@ Answer:
   - 參考型別[FormBody]
   - IFormFile[FromForm] 
 
-[[Api 應用Controller exception]]
+[[C Api exception]]
 [[Web應用Controller]]
 # Note
 #### 引入副程式
